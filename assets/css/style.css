@@ -16,12 +16,34 @@
 }
 /*----------------------------------- Header -------*/
 
-header {
-    margin: 0;
+.header-content {
+    margin: auto;
+    padding: 10px;
 }
 
-.logo {
-    min-height: 400px;
+
+.navbar .navbar-nav {
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.nav-link {
+    color: #E8EDDF;
+    font-family: "Ubuntu", sans-serif;
+    text-decoration: none;
+
+}
+
+.burger {
+    color: #F5CB5C;
+    font-size: 150%;
+}
+
+.navbar-brand {
+    margin: 10px;
 }
 
 .name {
@@ -46,6 +68,24 @@ header {
     kerning: 2px;
 }
 
+.contact-btn {
+    background-color: #F5CB5C;
+    color: #242423;
+    font-family: "Ubuntu", sans-serif;
+    margin-top: 40px;
+    margin-left: 80px;
+    padding-bottom: 0;
+    padding-top: 5px;
+    text-align: center;
+    border: none;
+    padding: 5px 7px;
+}
+
+/*------------------------------
+.logo {
+    min-height: 400px;
+}
+
 .menucontainer a {
     font-family: "Ubuntu", sans-serif;
     text-decoration: none;
@@ -60,20 +100,11 @@ header {
     text-align: center;
 }
 
-.btn {
-    background-color: #F5CB5C;
-    color: #242423;
-    font-family: "Ubuntu", sans-serif;
-    margin-top: 40px;
-    margin-left: 80px;
-    padding-bottom: 0;
-    padding-top: 5px;
-    text-align: center;
-    border: none;
-    padding: 5px 7px;
+.menucontainer a:hover {
+    color: #F5CB5C;
 }
 
-.menucontainer a:hover {
+.navlink:hover {
     color: #F5CB5C;
 }
 
@@ -81,12 +112,47 @@ header {
     color: #F5CB5C;
 }
 
+-------------------*/
+
 /*----------------------------------- Body -------*/
 
 .main-image {
-    max-width: 1100px;
+    max-width: 100%;
+    height: auto;
 }
 
-.hero-image {
+.home-image {
+    text-align: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.introduction p{
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    color: #E8EDDF ;
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.info-col h5, p {
+    color: #242423;
     text-align: center;
 }
+
+.education {
+    background-color: #E8EDDF;
+    padding: 5px;
+}
+
+.research {
+    background-color: #E8EDDF;
+    padding: 5px;
+}
+
+.influneces {
+    background-color: #E8EDDF;
+    padding: 5px;
+}
+
