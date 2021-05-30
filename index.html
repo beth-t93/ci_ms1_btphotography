@@ -5,103 +5,181 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/4f13c01e7f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
     <title>Beth Travis Photography</title>
 </head>
 <body class="background">
     <!------------------------Header----------------------->
-    <header>
-        <div class="header-content  ">
-            <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="#">
-                <h1 class="name">Beth Travis</h1>
-                <h2 class="title">Photography</h2>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbartoggler" aria-controls="navbartoggler" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="burger"><i class="fas fa-bars"></i></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbartoggler">
-              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="gallery.html">Gallery <span class="sr-only">Gallery</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="projects.html">Projects <span class="sr-only">Projects</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact <span class="sr-only">Contact</span></a>
-                  </li>
-              </ul> 
-                <button class="btn my-2 my-sm-0 contact-btn" type="submit">Contact</button>
-              </form>
-            </div>
-          </nav>
-        </div>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="/assets/images/logo1.tiff" alt=""/>
+          <h1 class="name">Beth Travis</h1>
+          <h3 class="title">Photography</h3>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn contact-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            Booking
+          </button>
 
-<!------------------------old nav-------------------
-        <div class="header-block container">
-            <div class="row">
-                <div class="col-6 col-md-4 logo">
-                    <h1 class="name">Beth Travis</h1>
-                    <h2 class="title">Photography</h2>
+          <!-- Modal -->
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="staticBackdropLabel">Looking to make a booking?</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <nav class="col-6 col-md-4">
-                    <ul id="nav" class="list-inline menucontainer">
-                        <li class="col list-inline-item">
-                            <a href="index.html">Home</a>
-                        </li>
-                        <li class="col list-inline-item">
-                            <a href="gallery.html">Gallery</a>
-                        </li>
-                        <li class="col list-inline-item">
-                            <a href="projects.html">Projects</a>
-                        </li>
-                        <li class="col list-inline-item">
-                            <a href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-
-                </nav>
-                <div class="col-6 col-md-4">
-                    <button type="button" class="btn btn-light call-btn">Contact</button>
-                 </div>
+                <div class="modal-body">
+                  <form action="mailto:beth_t93@live.co.uk" method="post">
+                    <label for="name">Name:</label><br>
+                    <input type="name" required><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" required><br>
+                    <label for="date">Date:</label><br>
+                    <input type="date" required><br>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="5" cols="33">
+                    </textarea><br>
+                    <input type="submit" value="Send!" class="send-btn"><br>
+                  </form>
+                </div>
               </div>
+            </div>
+          </div>
+
         </div>
-        ------->
-    </header>
+      </div>
+    </nav>
+  </header>
+    
+          
+    
     <!------------------------Body----------------------->
     <body>
         <div class=home-image>
-            <img class="main-image" src="../ci_ms1_btphotography/assets/images/3.jpg" alt="cover photograph of landscape in black and white">
+            <img class="main-image" src="assets/images/27.jpg" alt="cover photograph of landscape in black and white">
         </div>
-        <div class="introduction container">
-            <p>
-                Beth Travis is a photographer who mainly creates work within the realms of documentary and landscape. Her work is created using both digital and analogue techniques with 8x8, 120 film being a firm favourite.
-            </p>
-            <div class="row g-10 info-col">
-                <div class="col-sm-4 education info-col">
-                    <h5>Education</h5>
-                    <p>University of Chester</p>
-                </div>
-                <div class="col-sm-4 research info-col">
-                    <h5>Research</h5>
-                    <p>Non-place, documentary, landscape</p>
-                </div>
-                <div class="col-sm-4 influences info-col">
-                    <h5>Influences</h5>
-                    <p>Martin Parr, Don Mcullin, Vivan Maier</p>
-                </div>
+        <div class="introduction">
+          <p>Beth Travis is a photographer who creates work within the realms of documentary and landscape.</p>
+          <br>
+          <p>A large portion of her work is created using 35mm and medium format film, however she will also use digital techniques alongside to create something that looks and feels analogue, with that natural
+            film grain that no filter can replicate, but can be easily displayed and distributed digitally.
+          </p>
+        </div>
+        <div class="info">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4 education">
+                <h4><i class="fas fa-graduation-cap"></i> Education & Experience</h>
+                <p>
+                  <h6>Univeristy of Chester</h6>
+                  BA (hons) Photography with Graphic Design, 2012 - 2015
+                </p>
+                <p>
+                  <h6>95 Degrees Exhibition</h6>
+                  Photography Exhibition: Journey to the Shore, 2015
+                </p>
+                <p>
+                  <h6>Our Chalet, Switzerland</h6>
+                  Photographer and Marekting Intern, 2016
+                </p>
+                <p>
+                  <h6>World Association of Girl Guides and Girl Scouts</h6>
+                  Photographer at Roverway, The Netherlands, 2018
+                </p>
               </div>
+              <div class="col-md-4 research">
+                <h4><i class="fas fa-search"></i> Research</h4>
+                <p>
+                  A lot of the work is centered around specific themes. 
+                </p>
+                <p>
+                  A key theme is the landscape and how it changes over time, both in appearence and use. Documenting this change and exploring how people use the space now.
+                </p>
+                <p>
+                  Another aspect of the work is exploring 'Non-place'. Places that are non-despcript, with no real identity can be found anywhere, many people pass through them daily without even realising.
+                  
+                </p>
+              </div>
+              <div class="col-md-4 influences">
+                <h4><i class="fas fa-user-alt"></i> Influences</h4>
+                  <p>Don McCullin</p>
+                  <p>Martin Parr</p>
+                  <p>Stephen Shore</p>
+                  <p>Vivian Maier</p>
+              </div>
+            </div>
         </div>
+        <br>
+        
     </body>
     <!------------------------Footer----------------------->
-    <footer>
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+          <div class="row">
+            <div class="col booking-footer">
+              <h4>Looking to book?</h4>
+              <p>Follow the link to be taken to the booking form</p>
+              <button type="button" class="btn contact-btn footer-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Booking
+              </button>
+            </div>
+            <div class="col">
+            </div>
+            <div class="col">
+              <ul class="list-inline social-links">
+                <li class="list-inline-item">
+                    <a target="_blank" href="#">
+                        <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                        <span class="sr-only">Facebook</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="#">
+                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                        <span class="sr-only">Twitter</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="#">
+                        <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                        <span class="sr-only">LinkedIn</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="#">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                        <span class="sr-only">Instagram</span>
+                    </a>
+                </li>
+            </ul>
+          </div>
+          </div>
+        </div>
     </footer>
-    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4f13c01e7f.js" crossorigin="anonymous"></script>
 </body>
 </html>

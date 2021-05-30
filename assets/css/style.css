@@ -16,14 +16,16 @@
 }
 /*----------------------------------- Header -------*/
 
-.header-content {
+.logo {
     margin: auto;
-    padding: 10px;
 }
-
 
 .navbar .navbar-nav {
     float: none;
+    background-color: #242423;
+    margin: auto;
+    max-width: 1000;
+    
 }
 
 .navbar .navbar-collapse {
@@ -42,14 +44,19 @@
     font-size: 150%;
 }
 
-.navbar-brand {
-    margin: 10px;
+
+.navbartoggler {
+    color: #F5CB5C;
+}
+
+.logo {
+    text-decoration: none;
 }
 
 .name {
     color: #E8EDDF;
     font-family: "Fira Sans", sans-serif;
-    font-weight: 200;
+    font-weight: 300;
     margin-top: 5px;
     padding-bottom: 0;
     padding-top: 5px;
@@ -81,38 +88,39 @@
     padding: 5px 7px;
 }
 
-/*------------------------------
-.logo {
-    min-height: 400px;
-}
+/*------------------------------------Modal----------*/
 
-.menucontainer a {
-    font-family: "Ubuntu", sans-serif;
-    text-decoration: none;
+.modal-content {
     color: #E8EDDF;
-    margin-top: 10px;
+    background-color: #333533;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 200;
+    margin: auto;
+    display: inline-block;
+    padding: 20px;
 }
 
-.menucontainer {
+.modal-body input, textarea {
+    width: 300px;
+    border-radius: 4px;
+}
+
+.send-btn{
+    background-color: #F5CB5C;
+    color: #242423;
+    font-family: "Ubuntu", sans-serif;
     margin-top: 40px;
+    margin-left: 80px;
     padding-bottom: 0;
     padding-top: 5px;
-    text-align: center;
+    border: none;
+    padding: 5px 7px;
+    max-width: 100px;
+    float: right;
 }
 
-.menucontainer a:hover {
-    color: #F5CB5C;
-}
 
-.navlink:hover {
-    color: #F5CB5C;
-}
-
-.menucontainer a:active {
-    color: #F5CB5C;
-}
-
--------------------*/
 
 /*----------------------------------- Body -------*/
 
@@ -125,34 +133,80 @@
     text-align: center;
     max-width: 1200px;
     margin: auto;
+    padding-bottom: 5px;
 }
 
-.introduction p{
+.introduction {
+    color: #E8EDDF;
+    font-family: "Ubuntu", sans-serif;
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    float: none;
+}
+
+.education, .influences, .research {
+    color: #E8EDDF;
+    background-color: #333533;
     text-align: center;
     font-family: "Ubuntu", sans-serif;
-    color: #E8EDDF ;
-    padding: 20px;
-    max-width: 1000px;
-    margin: auto;
+    border: 5px solid #242423;
+    font-weight: 200;
+    padding: 10px;
+    margin-top: 10px;
 }
 
-.info-col h5, p {
-    color: #242423;
-    text-align: center;
+.info h4 {
+    color: #F5CB5C;
 }
 
 .education {
-    background-color: #E8EDDF;
-    padding: 5px;
+    line-height: 25px;
 }
 
-.research {
-    background-color: #E8EDDF;
-    padding: 5px;
+.influences p {
+    list-style: none;
+    line-height: 25px;
 }
 
-.influneces {
-    background-color: #E8EDDF;
-    padding: 5px;
+
+
+/*------------------------------------Footer---------*/
+
+.footer {
+    background-color: #333533;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    max-height: 250px;
+    font-family: "Ubuntu", sans-serif;
+    text-decoration: none;
 }
+
+.fab {
+    color: #F5CB5C;
+    text-decoration: none;
+}
+
+.social-links {
+    float: right;
+    font-size: 150%;
+    padding-top: 100px;
+}
+
+.footer-btn {
+    float: left;
+    margin: 0;
+
+}
+
+.booking-footer {
+    color: #E8EDDF;
+    text-align: left;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 200;
+    padding: 10px;
+    margin-top: 10px;
+}
+
 
