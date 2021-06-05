@@ -193,6 +193,13 @@
     padding: 30px;
 }
 
+@media screen and (max-width: 800px) {
+    #gallery-images {
+        column-count: 2;
+    }
+}
+    
+
 #gallery-images img {
     padding-bottom: 15px;
 }
