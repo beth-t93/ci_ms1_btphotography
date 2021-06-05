@@ -1,3 +1,5 @@
+https://beth-t93.github.io/ci_ms1_btphotography/
+
 ## Project Goals
 The aim of this project is to create a portfolio website to showcase my own photography work in a way that is both appealing and accessible across a range of devices and screen sizes.
 
