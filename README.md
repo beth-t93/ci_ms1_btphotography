@@ -50,7 +50,12 @@ The style of the site will be simple and minimal in order to let the photographs
 ###Colors
 The colour scheme from this website comes from the photographers work, they make their best work while outside exploring the landscape. The colours will work together in a way that lets the images stand out, while also providing a neutral backdrop to view the photographs on.
 
-*****put in which colour goes where here ie, background, header and text colour, hover button colour.********
+I have chosen a colour scheme that is neutral with a single pop of colour.
+ -Colour 1: (Hex: E8EDDF) is an off white color and will be used for body text, the logo and navigation.
+ -Colour 2: (Hex: F5CB5C) is a shad of yellow which will be used in the icon of the logo alongside the off white. It will also be used for headings and call to action buttons
+ -Colour 3: (Hex: 242423) is a grey/balck that will be used as the background colour to allow the photographs to be seen true to colour and allow them to stand out from the page.
+ -Colour 4: (Hex: 333533) is a lighter grey that will be used to show any layout components, such as the footer, and in the grid components to seperate information into smaller sections.
+
 
 ###Fonts/Typography
 To ensure the website is easily readable while also keeping to the simple and minimal design, the fonts used are: Ubuntu for headings and Fira Sans for all other text (these are taken from Google Fonts library) with sans-serif being the fallback font should either of the selected fonts be unavailable. 

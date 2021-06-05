@@ -13,10 +13,8 @@
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="/assets/images/logo1.tiff" alt=""/>
-          <h1 class="name">Beth Travis</h1>
-          <h3 class="title">Photography</h3>
+        <a class="navbar-brand" href="index.html">
+            <img src="assets/images/logo2.jpg" alt="Logo Icon" class="logo-icon d-inline-block align-text-top"/>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -74,11 +72,34 @@
     
 
   </header>
-    
-          
-    
     <!------------------------Body----------------------->
     <body>
+        <div class="container">
+            <div class="row form-info">
+                <div class="col-sm-6 contact-form">
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> <b>Email:</b> hello@btphotography.com</p>
+                        <p><i class="fas fa-mobile-alt"></i> <b>Phone:</b> 0771234567</p>
+                        <p><i class="fas fa-map-marker-alt"></i> <b>Address:</b> One City Place, Chester, CH1 3BQ</p>
+                    </div>
+                    <form action="mailto:beth_t93@live.co.uk" method="post">
+                        <label for="name">Name:</label><br>
+                        <input type="name" required><br>
+                        <label for="email">Email:</label><br>
+                        <input type="email" required><br>
+                        <label for="date">Date:</label><br>
+                        <input type="date" required><br>
+                        <label for="message">Message:</label><br>
+                        <textarea id="message" name="message" rows="5" cols="33">
+                        </textarea><br>
+                        <input type="submit" value="Send!" class="contact-send"><br>
+                      </form>
+                </div>
+                <div class="col-sm-6 map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d374.2946599003862!2d-3.130051651338638!3d53.247316413944176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487ad0db866c0299%3A0x2d514a2a3c1dbdd7!2s38%20Chester%20St%2C%20Flint%20CH6%205DS!5e1!3m2!1sen!2suk!4v1622667192222!5m2!1sen!2suk" width="800" height="610" style="border:0;" allowfullscreen="" loading="lazy"><p>Your browser does not support iFrames</p></iframe>
+                </div>
+            </div>
+        </div>
         
     </body>
     <!------------------------Footer----------------------->
@@ -86,8 +107,8 @@
         <div class="container">
           <div class="row">
             <div class="col booking-footer">
-              <h4>Looking to book?</h4>
-              <p>Follow the link to be taken to the booking form</p>
+              <h4>Want to collaborate?</h4>
+              <p>Follow the link to be taken to the contact form</p>
               <button type="button" class="btn contact-btn footer-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                 Booking
               </button>
