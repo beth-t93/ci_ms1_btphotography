@@ -50,7 +50,7 @@ The style of the site will be simple and minimal in order to let the photographs
 ### Colors
 The colour scheme from this website comes from the photographers work, they make their best work while outside exploring the landscape. The colours will work together in a way that lets the images stand out, while also providing a neutral backdrop to view the photographs on.
 
-![Colour Swatches] (./docs/wireframe/colour-scheme.jpg)
+![images](assets/images/colour-scheme.jpg)
 
 I have chosen a colour scheme that is neutral with a single pop of colour.
  -Colour 1: (Hex: E8EDDF) is an off white color and will be used for body text, the logo and navigation.
