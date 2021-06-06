@@ -92,6 +92,7 @@
     margin: auto;
     display: inline-block;
     padding: 20px;
+    max-width: 100%;
 }
 
 .modal-body input, textarea {
@@ -327,14 +328,13 @@
 .footer-btn {
     float: left;
     margin: 0;
-
+    background-color: #F5CB5C;
+    color: #242423;
+    font-family: "Ubuntu", sans-serif;
+    padding-top: 5px;
+    text-align: center;
+    border: none;
 }
-
-@media screen and (max-width: 991px) {
-    .contact-btn {
-      display: inherit;
-    }
-  }
 
 .booking-footer {
     color: #E8EDDF;
