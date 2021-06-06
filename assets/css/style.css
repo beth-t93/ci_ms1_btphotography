@@ -113,8 +113,6 @@
     float: right;
 }
 
-
-
 /*----------------------------------- Body -------*/
 
 .main-image {
@@ -331,6 +329,12 @@
     margin: 0;
 
 }
+
+@media screen and (max-width: 991px) {
+    .contact-btn {
+      display: inherit;
+    }
+  }
 
 .booking-footer {
     color: #E8EDDF;
