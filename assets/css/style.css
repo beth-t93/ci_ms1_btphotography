@@ -280,7 +280,6 @@ iframe {
     margin: auto;
     float: none;
     text-align: center;
-    
 }
 
 .contact-form {
@@ -290,8 +289,7 @@ iframe {
     padding-top: 20px;
     margin-bottom: 20px;
     text-align: center;
-    width: auto;
-    
+    width: auto;   
 }
 
 .contact-send {
@@ -317,13 +315,11 @@ iframe {
     margin-bottom: 20px;
 }
 
-.map {
-    position: relative;
-    overflow: hidden;
-    float: right;
-    margin: 0 20px
+.contact-image {
+    float: none;
+    margin: auto;
+    padding-bottom: 20px;
 }
-
 
 
 /*------------------------------------Footer---------*/
