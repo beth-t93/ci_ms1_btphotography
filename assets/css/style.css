@@ -16,6 +16,11 @@
 }
 /*----------------------------------- Header -------*/
 
+header {
+    background-color: #242423;
+    margin-bottom: 30px;
+}
+
 .logo {
     margin: auto;
 }
@@ -305,7 +310,6 @@ iframe {
     border-radius: 4px;
 }
 
-
 .contact-info {
     color: #F5CB5C;
     background-color: #333533;
@@ -315,12 +319,9 @@ iframe {
     margin-bottom: 20px;
 }
 
-.contact-image {
-    float: none;
-    margin: auto;
-    padding-bottom: 20px;
+.contactpage-fields {
+    max-width: 95%;
 }
-
 
 /*------------------------------------Footer---------*/
 
