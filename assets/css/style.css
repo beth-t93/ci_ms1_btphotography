@@ -190,9 +190,13 @@ iframe {
 }
 
 .click-here {
-    color: #F5CB5C;
+    color: #E8EDDF;
     text-decoration: none;
     font-weight: 500;
+}
+
+.click-here:hover {
+    color: #F5CB5C;
 }
 
 /*-------------------------------Gallery---------*/
@@ -322,7 +326,7 @@ iframe {
     }
   }
 
-.row img {
+.service-img {
     width: 80%;
     border-radius: 50%;
     padding-bottom: 10px;
