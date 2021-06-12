@@ -279,6 +279,33 @@ iframe {
     background-color: #242423;
 }
 
+.services-title {
+    color: #F5CB5C;
+    font-family: "Fira Sans", sans-serif;
+    padding: 50px;
+    margin: 0px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    color: #E8EDDF;
+    font-family: "Ubuntu", sans-serif;
+    text-align: center;
+  }
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
 /*------------------------------------Contact---------*/
 
 .form-info {
