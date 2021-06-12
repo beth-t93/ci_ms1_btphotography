@@ -167,6 +167,8 @@ header {
     line-height: 25px;
 }
 
+/*------ Map and Location Section ---------*/
+
 .location {
     color: #E8EDDF;
     background-color: #333533;
@@ -193,7 +195,7 @@ iframe {
     font-weight: 500;
 }
 
-/*------------------------------------Gallery---------*/
+/*-------------------------------Gallery---------*/
 
 .gallery-title h2 {
     color: #F5CB5C;
@@ -244,7 +246,9 @@ iframe {
     padding-bottom: 15px;
 }
 
-/*------------------------------------Projects---------*/
+/*------------------------------Projects---------*/
+
+/*------ Carousel and Accoridion Styling ---------*/
 
 .carousel {
     max-width: 1000px;
@@ -278,6 +282,8 @@ iframe {
     color: #E8EDDF;
     background-color: #242423;
 }
+
+/*------ Other Services Table ---------*/
 
 .services-title {
     color: #F5CB5C;
