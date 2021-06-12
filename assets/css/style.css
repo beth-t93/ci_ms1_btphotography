@@ -327,6 +327,12 @@ iframe {
     border-radius: 50%;
     padding-bottom: 10px;
 }
+
+.services p {
+    color: #E8EDDF;
+    font-family: "Ubuntu", sans-serif;
+    text-align: center;
+}
 /*------------------------------------Contact---------*/
 
 .form-info {
