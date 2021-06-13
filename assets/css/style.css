@@ -442,10 +442,20 @@ iframe {
   }
 
 
-  .jumbotron {
-      color: #E8EDDF;
-      font-family: "Ubuntu", sans-serif;
-      font-weight: 500;
-      padding: 30px;
-  }
+.jumbotron {
+    color: #E8EDDF;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    padding: 30px;
+    text-align: center;
+}
 
+.jumbotron p {
+    padding-top: 20px;
+    size: 150%;
+}
+
+.jumbotron a {
+    text-decoration: none;
+    color: #F5CB5C;
+}
