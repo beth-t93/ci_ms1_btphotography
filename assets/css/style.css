@@ -400,7 +400,8 @@ iframe {
     font-family: "Ubuntu", sans-serif;
     text-decoration: none;
     float: none;
-    margin: auto;
+    margin-bottom: 0px;
+    margin-top: 20px;
 }
 
 .fab {
@@ -441,21 +442,34 @@ iframe {
     }
   }
 
+/*------------------------------------404 page---------*/
 
-.jumbotron {
+.error-text {
     color: #E8EDDF;
     font-family: "Ubuntu", sans-serif;
     font-weight: 500;
-    padding: 30px;
+    padding: 10px;
     text-align: center;
 }
 
-.jumbotron p {
+.error-text p {
     padding-top: 20px;
     size: 150%;
 }
 
-.jumbotron a {
+.error-text a {
     text-decoration: none;
     color: #F5CB5C;
 }
+
+.error-images {
+    margin: auto;
+}
+
+.error-images img {
+    width: 100%;
+    margin: 5px;
+    padding-bottom: 5px;
+}
+
+
