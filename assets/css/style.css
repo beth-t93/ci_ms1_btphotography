@@ -190,7 +190,7 @@ iframe {
 .gallery-title p {
 	color: #E8EDDF;
 	font-family: "Ubuntu", sans-serif;
-	padding-left: 50px;
+	padding: 10px;
 	float: left;
 }
 .project-link {
