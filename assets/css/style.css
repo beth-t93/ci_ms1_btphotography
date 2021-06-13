@@ -182,9 +182,7 @@ iframe {
 	font-family: "Fira Sans", sans-serif;
 	font-weight: 400;
 	margin-top: 10px;
-	padding-bottom: 5px;
-	padding-top: 0;
-	padding-left: 50px;
+	padding: 10px;
 	margin-top: 0%;
 	text-align: left;
 	kerning: 8px;
