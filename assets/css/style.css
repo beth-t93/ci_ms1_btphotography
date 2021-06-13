@@ -146,6 +146,10 @@ textarea {
 }
 /*------ Map and Location Section ---------*/
 
+.map {
+    width: 100%;
+}
+
 .location {
 	color: #E8EDDF;
 	background-color: #333533;
