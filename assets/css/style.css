@@ -191,6 +191,7 @@ iframe {
 	color: #E8EDDF;
 	font-family: "Ubuntu", sans-serif;
 	padding: 30px;
+    padding-top: 0px;
 	float: left;
 }
 .project-link {
