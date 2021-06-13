@@ -1,253 +1,237 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="assets/images/favicon.ico" type="image">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
-    <title>Beth Travis Photography</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="assets/images/favicon.ico" type="image">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+	<title>Beth Travis Photography</title>
 </head>
+
 <body class="background">
-    <!------------------------Header----------------------->
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">
-            <img src="assets/images/logo2.jpg" alt="Logo Icon" class="logo-icon d-inline-block align-text-top"/>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="gallery.html">Gallery</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="projects.html">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-          <!-- Button trigger modal -->
-          <button type="button" class="btn contact-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-            Booking
-          </button>
+	<!------------------------Header----------------------->
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-dark">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html">
+					<img src="assets/images/logo2.jpg" alt="Logo Icon" class="logo-icon d-inline-block align-text-top" />
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+					<ul class="navbar-nav">
+						<li class="nav-item"> <a class="nav-link" href="index.html">Home</a>
+						</li>
+						<li class="nav-item"> <a class="nav-link" href="gallery.html">Gallery</a>
+						</li>
+						<li class="nav-item"> <a class="nav-link active" aria-current="page" href="projects.html">Projects</a>
+						</li>
+						<li class="nav-item"> <a class="nav-link" href="contact.html">Contact</a>
+						</li>
+					</ul>
+					<!-- Button trigger modal -->
+					<button type="button" class="btn contact-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Booking</button>
+					<!-- Modal -->
+					<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="staticBackdropLabel">Looking to make a booking?</h5>
+									<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+								</div>
+								<div class="modal-body">
+									<form action="https://formdump.codeinstitute.net/" method="POST">
+										<label for="name">Name:</label>
+										<br>
+										<input type="name" required>
+										<br>
+										<label for="email">Email:</label>
+										<br>
+										<input type="email" required>
+										<br>
+										<label for="date">Date:</label>
+										<br>
+										<input type="date" required>
+										<br>
+										<label for="message">Message:</label>
+										<br>
+										<textarea id="message" name="message" rows="5" cols="33"></textarea>
+										<br>
+										<input type="submit" value="Send!" class="send-btn">
+										<br>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!------------------------Body----------------------->
 
-          <!-- Modal -->
-          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="staticBackdropLabel">Looking to make a booking?</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  <form action="https://formdump.codeinstitute.net/" method="POST">
-                    <label for="name">Name:</label><br>
-                    <input type="name" required><br>
-                    <label for="email">Email:</label><br>
-                    <input type="email" required><br>
-                    <label for="date">Date:</label><br>
-                    <input type="date" required><br>
-                    <label for="message">Message:</label><br>
-                    <textarea id="message" name="message" rows="5" cols="33">
-                    </textarea><br>
-                    <input type="submit" value="Send!" class="send-btn"><br>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </nav>
-    
-    
-
-  </header>
-    
-          
-    
-    <!------------------------Body----------------------->
-    <body>
-        <div class="gallery-title">
-            <h2>Projects</h2>
-        </div>
-    <!------------------------Carousel------------------->
-
-        <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="">
-                <img src="assets/images/journey project photo.jpg" class="d-block w-100" alt="Journey to the Shore Project Photo">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Journey to the Shore</h5>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="assets/images/home project photo.jpg" class="d-block w-100" alt="Home Project Photo">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Home</h5>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="assets/images/public project photo.jpg" class="d-block w-100" alt="The Public Project Photo">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>The Public</h5>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="assets/images/roots project photo.jpg" class="d-block w-100" alt="Roots Project Photo">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Roots</h5>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-          <br>
-    <!-------Project Descriptions--------------->
-    <div class="accordion accordion-flush" id="accordionProjects">
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingOne">
+	<body>
+		<div class="gallery-title">
+			<h2>Projects</h2>
+		</div>
+		<!------------------------Carousel------------------->
+		<div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+			<div class="carousel-indicators">
+				<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+				<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+				<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+				<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+			</div>
+			<div class="carousel-inner">
+				<div class="carousel-item active" data-bs-interval="">
+					<img src="assets/images/journey project photo.jpg" class="d-block w-100" alt="Journey to the Shore Project Photo">
+					<div class="carousel-caption d-none d-md-block">
+						<h5>Journey to the Shore</h5>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="assets/images/home project photo.jpg" class="d-block w-100" alt="Home Project Photo">
+					<div class="carousel-caption d-none d-md-block">
+						<h5>Home</h5>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="assets/images/public project photo.jpg" class="d-block w-100" alt="The Public Project Photo">
+					<div class="carousel-caption d-none d-md-block">
+						<h5>The Public</h5>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="assets/images/roots project photo.jpg" class="d-block w-100" alt="Roots Project Photo">
+					<div class="carousel-caption d-none d-md-block">
+						<h5>Roots</h5>
+					</div>
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+		<br>
+		<!-------Project Descriptions--------------->
+		<div class="accordion accordion-flush" id="accordionProjects">
+			<div class="accordion-item">
+				<h2 class="accordion-header" id="flush-headingOne">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
               Journey to the Shore
             </button>
           </h2>
-          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionProjects">
-            <div class="accordion-body">
-                <p>This project started because of a fascination with history and the local area. The small part of North Wales that was documented in this project was once home to a vast number of factories, most of which helped build the towns and viallges nearby to house their workers.</p>
-                <p>However this hub of industry has declined over the years, with areas that were once huge factories sitting derelict and nature recaliming the land.</p>
-                <p>It is this change that was most interesting, and how most people would just see what is now a picturesque path on a part of their dog walk, but upon closer inspection you can find remnants of the past in plain sight.</p>
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingTwo">
+				<div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionProjects">
+					<div class="accordion-body">
+						<p>This project started because of a fascination with history and the local area. The small part of North Wales that was documented in this project was once home to a vast number of factories, most of which helped build the towns and viallges nearby to house their workers.</p>
+						<p>However this hub of industry has declined over the years, with areas that were once huge factories sitting derelict and nature recaliming the land.</p>
+						<p>It is this change that was most interesting, and how most people would just see what is now a picturesque path on a part of their dog walk, but upon closer inspection you can find remnants of the past in plain sight.</p>
+					</div>
+				</div>
+			</div>
+			<div class="accordion-item">
+				<h2 class="accordion-header" id="flush-headingTwo">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
               Home
             </button>
           </h2>
-          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionProjects">
-            <div class="accordion-body">
-                <p>This project was a piece of work that documented a childhood in present day. Each image represents a part of that childhood, events that happened decades ago, but in present day.</p>
-                <p>In a way it demonstrates how such simple things can hold such significance to one person, and possibly nothing to the next.</p>
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingThree">
+				<div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionProjects">
+					<div class="accordion-body">
+						<p>This project was a piece of work that documented a childhood in present day. Each image represents a part of that childhood, events that happened decades ago, but in present day.</p>
+						<p>In a way it demonstrates how such simple things can hold such significance to one person, and possibly nothing to the next.</p>
+					</div>
+				</div>
+			</div>
+			<div class="accordion-item">
+				<h2 class="accordion-header" id="flush-headingThree">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
               The Public
             </button>
           </h2>
-          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionProjects">
-            <div class="accordion-body">
-               <p>This project stemmed from a love of people watching looking at how people go about their day when out in public.</p>
-               <p>It then developed into a body of work where all images were taken in portrait, so that once the work was displayed in an exhibtion setting a large number of prints were mounted close together, mimicking the feel you get on a busy highstreet or city centre.</p>
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingFour">
+				<div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionProjects">
+					<div class="accordion-body">
+						<p>This project stemmed from a love of people watching looking at how people go about their day when out in public.</p>
+						<p>It then developed into a body of work where all images were taken in portrait, so that once the work was displayed in an exhibtion setting a large number of prints were mounted close together, mimicking the feel you get on a busy highstreet or city centre.</p>
+					</div>
+				</div>
+			</div>
+			<div class="accordion-item">
+				<h2 class="accordion-header" id="flush-headingFour">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
                 Roots
               </button>
             </h2>
-            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionProjects">
-              <div class="accordion-body">
-                  <p>This project was something more personal than the work that had been produced before it. It was a look at family and you begin to associate certain things with different family members, it could be something as simple as a type of light switch or a certain road.</p>
-              </div>
-            </div>
-          </div>
-      </div>
-    
-    <!-----Table with other services-->
-    <h3 class="services-title">Other Services</h3>
-    <div class="services row">
-      <p>If you would like to see more of this work or would like some more information click <a href="/contact.html" class="click-here">here</a> for more contact information.</p>
-    </div>
-    <div class="services row">
-      <div class="weddings column">
-        <img class="service-img" src="assets/images/weddings.jpg" alt="Image taken during a wedding ceremony">
-        <h4>Weddings</h4>
-      </div>
-      <div class="events column">
-        <img class="service-img" src="assets/images/events.jpg" alt="Image from a trail run event">
-        <h4>Events</h4>
-      </div>
-      <div class="corporate column">
-        <img class="service-img" src="assets/images/corporate.JPG" alt="Image from an international event">
-        <h4>Corporate</h4>
-      </div>
-    </div>    
-  </body>
-
-    <!------------------------Footer----------------------->
-    <footer class="footer mt-auto py-3">
-      <div class="container">
-        <div class="row">
-          <div class="col booking-footer">
-            <h4>Want to collaborate?</h4>
-            <p>Follow the link to be taken to the contact form</p>
-            <button type="button" class="btn footer-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-              Booking
-            </button>
-          </div>
-          <div class="col">
-            <ul class="list-inline social-links">
-              <li class="list-inline-item">
-                  <a target="_blank" href="https://www.facebook.com/">
-                      <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                      <span class="sr-only">Facebook</span>
-                  </a>
-              </li>
-              <li class="list-inline-item">
-                  <a target="_blank" href="https://www.twitter.com/">
-                      <i class="fab fa-twitter" aria-hidden="true"></i>
-                      <span class="sr-only">Twitter</span>
-                  </a>
-              </li>
-              <li class="list-inline-item">
-                  <a target="_blank" href="https://www.linkedin.com/">
-                      <i class="fab fa-linkedin-in" aria-hidden="true"></i>
-                      <span class="sr-only">LinkedIn</span>
-                  </a>
-              </li>
-              <li class="list-inline-item">
-                  <a target="_blank" href="https://www.instagram.com/">
-                      <i class="fab fa-instagram" aria-hidden="true"></i>
-                      <span class="sr-only">Instagram</span>
-                  </a>
-              </li>
-          </ul>
-          </div>
-        </div>
-      </div>
-  </footer>
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/4f13c01e7f.js" crossorigin="anonymous"></script>
+				<div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionProjects">
+					<div class="accordion-body">
+						<p>This project was something more personal than the work that had been produced before it. It was a look at family and you begin to associate certain things with different family members, it could be something as simple as a type of light switch or a certain road.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-----Table with other services-->
+		<h3 class="services-title">Other Services</h3>
+		<div class="services row">
+			<p>If you would like to see more of this work or would like some more information click <a href="/contact.html" class="click-here">here</a> for more contact information.</p>
+		</div>
+		<div class="services row">
+			<div class="weddings column">
+				<img class="service-img" src="assets/images/weddings.jpg" alt="Image taken during a wedding ceremony">
+				<h4>Weddings</h4>
+			</div>
+			<div class="events column">
+				<img class="service-img" src="assets/images/events.jpg" alt="Image from a trail run event">
+				<h4>Events</h4>
+			</div>
+			<div class="corporate column">
+				<img class="service-img" src="assets/images/corporate.JPG" alt="Image from an international event">
+				<h4>Corporate</h4>
+			</div>
+		</div>
+	</body>
+	<!------------------------Footer----------------------->
+	<footer class="footer mt-auto py-3">
+		<div class="container">
+			<div class="row">
+				<div class="col booking-footer">
+					<h4>Want to collaborate?</h4>
+					<p>Follow the link to be taken to the contact form</p>
+					<button type="button" class="btn footer-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Booking</button>
+				</div>
+				<div class="col">
+					<ul class="list-inline social-links">
+						<li class="list-inline-item">
+							<a target="_blank" href="https://www.facebook.com/"> <i class="fab fa-facebook-f" aria-hidden="true"></i>
+								<span class="sr-only">Facebook</span>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a target="_blank" href="https://www.twitter.com/"> <i class="fab fa-twitter" aria-hidden="true"></i>
+								<span class="sr-only">Twitter</span>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a target="_blank" href="https://www.linkedin.com/"> <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+								<span class="sr-only">LinkedIn</span>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a target="_blank" href="https://www.instagram.com/"> <i class="fab fa-instagram" aria-hidden="true"></i>
+								<span class="sr-only">Instagram</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/4f13c01e7f.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

@@ -1,475 +1,406 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap');
 
-
 /*----------------------------------- Colours -------*/
+
 .background {
-    background-color: #242423;
+	background-color: #242423;
 }
-
-.header-block{
-    background-color: #242423;
-    width: 100%;
-    padding: 0;
-    text-align: center;
-    max-height: 125px;
-
+.header-block {
+	background-color: #242423;
+	width: 100%;
+	padding: 0;
+	text-align: center;
+	max-height: 125px;
 }
 /*----------------------------------- Header -------*/
 
 header {
-    background-color: #242423;
-    margin-bottom: 30px;
+	background-color: #242423;
+	margin-bottom: 30px;
 }
-
 .logo {
-    margin: auto;
+	margin: auto;
 }
-
 .logo-icon {
-    max-height: 150px;
-    padding-left: 30px;
+	max-height: 150px;
+	padding-left: 30px;
 }
-
 .navbar .navbar-nav {
-    float: none;
-    background-color: #242423;
-    margin: auto;
-    max-width: 1000;
-    padding: 100px;
+	float: none;
+	background-color: #242423;
+	margin: auto;
+	max-width: 1000;
+	padding: 100px;
 }
-
 .navbar .navbar-collapse {
-    text-align: center;
+	text-align: center;
 }
-
-.show .navbar-nav{
-    padding-top: 10px;
+.show .navbar-nav {
+	padding-top: 10px;
 }
-
 .nav-link {
-    color: #E8EDDF;
-    font-family: "Ubuntu", sans-serif;
-    text-decoration: none;
-
+	color: #E8EDDF;
+	font-family: "Ubuntu", sans-serif;
+	text-decoration: none;
 }
-
 .burger {
-    color: #F5CB5C;
-    font-size: 150%;
+	color: #F5CB5C;
+	font-size: 150%;
 }
-
-
 .navbartoggler {
-    color: #F5CB5C;
+	color: #F5CB5C;
 }
-
 .logo {
-    text-decoration: none;
+	text-decoration: none;
 }
-
 .contact-btn {
-    background-color: #F5CB5C;
-    color: #242423;
-    font-family: "Ubuntu", sans-serif;
-    margin-top: 40px;
-    margin-left: 60px;
-    margin-bottom: 10px;
-    margin-right: 30px;
-    padding-top: 5px;
-    text-align: center;
-    border: none;
+	background-color: #F5CB5C;
+	color: #242423;
+	font-family: "Ubuntu", sans-serif;
+	margin-top: 40px;
+	margin-left: 60px;
+	margin-bottom: 10px;
+	margin-right: 30px;
+	padding-top: 5px;
+	text-align: center;
+	border: none;
 }
-
 @media screen and (max-width: 991px) {
-    .contact-btn {
-      display:none;
-    }
-  }
-
+	.contact-btn {
+		display: none;
+	}
+}
 /*------------------------------------Modal----------*/
 
 .modal-content {
-    color: #E8EDDF;
-    background-color: #333533;
-    text-align: center;
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 200;
-    margin: auto;
-    display: inline-block;
-    padding: 20px;
-    max-width: 100%;
+	color: #E8EDDF;
+	background-color: #333533;
+	text-align: center;
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 200;
+	margin: auto;
+	display: inline-block;
+	padding: 20px;
+	max-width: 100%;
 }
-
-.modal-body input, textarea {
-    width: 300px;
-    border-radius: 4px;
+.modal-body input,
+textarea {
+	width: 300px;
+	border-radius: 4px;
 }
-
-.send-btn{
-    background-color: #F5CB5C;
-    color: #242423;
-    font-family: "Ubuntu", sans-serif;
-    margin-top: 40px;
-    margin-left: 80px;
-    padding-bottom: 0;
-    padding-top: 5px;
-    border: none;
-    padding: 5px 7px;
-    max-width: 100px;
-    float: right;
+.send-btn {
+	background-color: #F5CB5C;
+	color: #242423;
+	font-family: "Ubuntu", sans-serif;
+	margin-top: 40px;
+	margin-left: 80px;
+	padding-bottom: 0;
+	padding-top: 5px;
+	border: none;
+	padding: 5px 7px;
+	max-width: 100px;
+	float: right;
 }
-
 /*----------------------------------- Index Body -------*/
 
 .main-image {
-    max-width: 100%;
-    height: auto;
+	max-width: 100%;
+	height: auto;
 }
-
 .home-image {
-    text-align: center;
-    max-width: 1200px;
-    margin: auto;
-    padding-bottom: 5px;
+	text-align: center;
+	max-width: 1200px;
+	margin: auto;
+	padding-bottom: 5px;
 }
-
 .introduction {
-    color: #E8EDDF;
-    font-family: "Ubuntu", sans-serif;
-    text-align: center;
-    max-width: 800px;
-    margin: auto;
-    float: none;
-    padding: 10px;
+	color: #E8EDDF;
+	font-family: "Ubuntu", sans-serif;
+	text-align: center;
+	max-width: 800px;
+	margin: auto;
+	float: none;
+	padding: 10px;
 }
-
-.education, .influences, .research {
-    color: #E8EDDF;
-    background-color: #333533;
-    text-align: center;
-    font-family: "Ubuntu", sans-serif;
-    border: 5px solid #242423;
-    font-weight: 200;
-    padding: 10px;
-    margin-top: 10px;
+.education,
+.influences,
+.research {
+	color: #E8EDDF;
+	background-color: #333533;
+	text-align: center;
+	font-family: "Ubuntu", sans-serif;
+	border: 5px solid #242423;
+	font-weight: 200;
+	padding: 10px;
+	margin-top: 10px;
 }
-
 .info h4 {
-    color: #F5CB5C;
+	color: #F5CB5C;
 }
-
 .education {
-    line-height: 25px;
+	line-height: 25px;
 }
-
 .influences p {
-    list-style: none;
-    line-height: 25px;
+	list-style: none;
+	line-height: 25px;
 }
-
 /*------ Map and Location Section ---------*/
 
 .location {
-    color: #E8EDDF;
-    background-color: #333533;
-    text-align: center;
-    font-family: "Ubuntu", sans-serif;
-    border: 5px solid #242423;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    margin: auto;
+	color: #E8EDDF;
+	background-color: #333533;
+	text-align: center;
+	font-family: "Ubuntu", sans-serif;
+	border: 5px solid #242423;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	margin: auto;
 }
-
 .location h4 {
-    color: #F5CB5C;
-    padding: 10px;
+	color: #F5CB5C;
+	padding: 10px;
 }
-
 iframe {
-    padding-bottom: 5px;
+	padding-bottom: 5px;
 }
-
 .click-here {
-    color: #E8EDDF;
-    text-decoration: none;
-    font-weight: 500;
+	color: #E8EDDF;
+	text-decoration: none;
+	font-weight: 500;
 }
-
 .click-here:hover {
-    color: #F5CB5C;
+	color: #F5CB5C;
 }
-
 /*-------------------------------Gallery---------*/
 
 .gallery-title h2 {
-    color: #F5CB5C;
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 400;
-    margin-top: 10px;
-    padding-bottom: 5px;
-    padding-top: 0;
-    padding-left: 50px;
-    margin-top: 0%;
-    text-align: left;
-    kerning: 8px;
+	color: #F5CB5C;
+	font-family: "Fira Sans", sans-serif;
+	font-weight: 400;
+	margin-top: 10px;
+	padding-bottom: 5px;
+	padding-top: 0;
+	padding-left: 50px;
+	margin-top: 0%;
+	text-align: left;
+	kerning: 8px;
 }
-
 .gallery-title p {
-    color: #E8EDDF;
-    font-family: "Ubuntu", sans-serif;
-    padding-left: 50px;
-    float: left;
+	color: #E8EDDF;
+	font-family: "Ubuntu", sans-serif;
+	padding-left: 50px;
+	float: left;
 }
-
 .project-link {
-    text-decoration: none;
-    color: #E8EDDF;
+	text-decoration: none;
+	color: #E8EDDF;
 }
-
 .project-link:hover {
-    color: #F5CB5C;
+	color: #F5CB5C;
 }
-
-
 #gallery-images {
-    clear: both;
-    line-height: 30px;
-    column-count: 4;
-    column-gap: 15px;
-    padding: 30px;
+	clear: both;
+	line-height: 30px;
+	column-count: 4;
+	column-gap: 15px;
+	padding: 30px;
 }
-
 @media screen and (max-width: 800px) {
-    #gallery-images {
-        column-count: 2;
-    }
+	#gallery-images {
+		column-count: 2;
+	}
 }
-    
-
 #gallery-images img {
-    padding-bottom: 15px;
+	padding-bottom: 15px;
 }
-
 /*------------------------------Projects---------*/
 
 /*------ Carousel and Accoridion Styling ---------*/
 
 .carousel {
-    max-width: 1000px;
-    text-align: center;
-    margin: auto;
-    padding-top: none;
+	max-width: 1000px;
+	text-align: center;
+	margin: auto;
+	padding-top: none;
 }
-
 .carousel h5 {
-    color: #E8EDDF;
-    font-family: "Ubuntu", sans-serif;
+	color: #E8EDDF;
+	font-family: "Ubuntu", sans-serif;
 }
-
 .accordion {
-    background-color: #242423;
+	background-color: #242423;
 }
-
 #accordionProjects {
-    max-width: 1000px;
-    margin: auto;
-    padding-bottom: 20px;
-    font-family: "Fira Sans", sans-serif;
+	max-width: 1000px;
+	margin: auto;
+	padding-bottom: 20px;
+	font-family: "Fira Sans", sans-serif;
 }
-
 .accordion-button {
-    color: #E8EDDF;
-    background-color: #333533;
+	color: #E8EDDF;
+	background-color: #333533;
 }
-
 .accordion-body {
-    color: #E8EDDF;
-    background-color: #242423;
+	color: #E8EDDF;
+	background-color: #242423;
 }
-
 /*------ Other Services Table ---------*/
 
 .services-title {
-    color: #F5CB5C;
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 400;
-    margin-top: 10px;
-    padding-bottom: 5px;
-    padding-top: 0;
-    padding-left: 50px;
-    margin-top: 0%;
-    text-align: left;
-    kerning: 8px;
+	color: #F5CB5C;
+	font-family: "Fira Sans", sans-serif;
+	font-weight: 400;
+	margin-top: 10px;
+	padding-bottom: 5px;
+	padding-top: 0;
+	padding-left: 50px;
+	margin-top: 0%;
+	text-align: left;
+	kerning: 8px;
 }
 .row {
-    margin: 20px;
+	margin: 20px;
 }
-
 .column {
-    float: left;
-    width: 33.33%;
-    color: #E8EDDF;
-    font-family: "Ubuntu", sans-serif;
-    text-align: center;
-  }
-
+	float: left;
+	width: 33.33%;
+	color: #E8EDDF;
+	font-family: "Ubuntu", sans-serif;
+	text-align: center;
+}
 .row:after {
-    content: "";
-    display: table;
-    clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }
-
 @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-      
-    }
-  }
-
-.service-img {
-    width: 80%;
-    border-radius: 50%;
-    padding-bottom: 10px;
+	.column {
+		width: 100%;
+	}
 }
-
+.service-img {
+	width: 80%;
+	border-radius: 50%;
+	padding-bottom: 10px;
+}
 .services p {
-    color: #E8EDDF;
-    font-family: "Ubuntu", sans-serif;
-    text-align: center;
+	color: #E8EDDF;
+	font-family: "Ubuntu", sans-serif;
+	text-align: center;
 }
 /*------------------------------------Contact---------*/
 
 .form-info {
-    margin: auto;
-    float: none;
-    text-align: center;
+	margin: auto;
+	float: none;
+	text-align: center;
 }
-
 .contact-form {
-    color: #E8EDDF;
-    padding-bottom: 20px;
-    text-align: center;
-    width: auto;   
-    margin: auto;
+	color: #E8EDDF;
+	padding-bottom: 20px;
+	text-align: center;
+	width: auto;
+	margin: auto;
 }
-
 .contact-send {
-    background-color: #F5CB5C;
-    color: #242423;
-    font-family: "Ubuntu", sans-serif;
-    margin-top: 20px;
-    margin-left: 40px;
-    border: none;
-    padding: 5px 10px;
-    max-width: 100px;
-    float: right;
-    border-radius: 4px;
+	background-color: #F5CB5C;
+	color: #242423;
+	font-family: "Ubuntu", sans-serif;
+	margin-top: 20px;
+	margin-left: 40px;
+	border: none;
+	padding: 5px 10px;
+	max-width: 100px;
+	float: right;
+	border-radius: 4px;
 }
-
 .contact-info {
-    color: #F5CB5C;
-    padding: 20px;
-    max-width: 800px;
-    margin-left: 10px;
-    margin-bottom: 20px;
+	color: #F5CB5C;
+	padding: 20px;
+	max-width: 800px;
+	margin-left: 10px;
+	margin-bottom: 20px;
 }
-
 .contactpage-fields {
-    max-width: 95%;
+	max-width: 95%;
 }
-
 .contact-img {
-    margin-bottom: 20px;
-    width: 100%;
-    padding: 0px;
+	margin-bottom: 20px;
+	width: 100%;
+	padding: 0px;
 }
-
 .img-container {
-    width: auto;
-    margin: auto;
+	width: auto;
+	margin: auto;
 }
-
 /*------------------------------------Footer---------*/
 
 .footer {
-    background-color: #333533;
-    max-width: 100%;
-    padding: 0;
-    text-align: center;
-    max-height: 250px;
-    font-family: "Ubuntu", sans-serif;
-    text-decoration: none;
-    float: none;
-    margin-bottom: 0px;
-    margin-top: 20px;
+	background-color: #333533;
+	max-width: 100%;
+	padding: 0;
+	text-align: center;
+	max-height: 250px;
+	font-family: "Ubuntu", sans-serif;
+	text-decoration: none;
+	float: none;
+	margin-bottom: 0px;
+	margin-top: 20px;
 }
-
 .fab {
-    color: #F5CB5C;
-    text-decoration: none;
+	color: #F5CB5C;
+	text-decoration: none;
 }
-
 .social-links {
-    float: right;
-    font-size: 150%;
-    padding-top: 100px;
+	float: right;
+	font-size: 150%;
+	padding-top: 100px;
 }
-
 .footer-btn {
-    float: left;
-    margin: 0;
-    background-color: #F5CB5C;
-    color: #242423;
-    font-family: "Ubuntu", sans-serif;
-    padding-top: 5px;
-    text-align: center;
-    border: none;
+	float: left;
+	margin: 0;
+	background-color: #F5CB5C;
+	color: #242423;
+	font-family: "Ubuntu", sans-serif;
+	padding-top: 5px;
+	text-align: center;
+	border: none;
 }
-
 .booking-footer {
-    color: #E8EDDF;
-    text-align: left;
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 200;
-    padding: 10px;
-    margin-top: 10px;
+	color: #E8EDDF;
+	text-align: left;
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 200;
+	padding: 10px;
+	margin-top: 10px;
 }
-
 @media screen and (max-width: 600px) {
-    .booking-footer {
-      display: none;
-      
-    }
-  }
-
+	.booking-footer {
+		display: none;
+	}
+}
 /*------------------------------------404 page---------*/
 
 .error-text {
-    color: #E8EDDF;
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 500;
-    padding: 10px;
-    text-align: center;
+	color: #E8EDDF;
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 500;
+	padding: 10px;
+	text-align: center;
 }
-
 .error-text p {
-    padding-top: 20px;
-    size: 150%;
+	padding-top: 20px;
+	size: 150%;
 }
-
 .error-text a {
-    text-decoration: none;
-    color: #F5CB5C;
+	text-decoration: none;
+	color: #F5CB5C;
 }
-
 .error-images {
-    margin: auto;
+	margin: auto;
 }
-
 .error-images img {
-    width: 100%;
-    margin: 5px;
-    padding-bottom: 5px;
+	width: 100%;
+	margin: 5px;
+	padding-bottom: 5px;
 }
-
-
