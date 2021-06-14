@@ -29,7 +29,7 @@ header {
 	float: none;
 	background-color: #242423;
 	margin: auto;
-	max-width: 1000;
+	max-width: 1000px;
 	padding: 100px;
 }
 .navbar .navbar-collapse {
@@ -224,7 +224,7 @@ iframe {
 	max-width: 1000px;
 	text-align: center;
 	margin: auto;
-	padding-top: none;
+	padding-top: 0px;
 }
 .carousel h5 {
 	color: #E8EDDF;
