@@ -382,6 +382,10 @@ iframe {
 		display: none;
 	}
 }
+.icon-text {
+    color: #F5CB5C;
+    text-decoration: none;
+}
 /*------------------------------------404 page---------*/
 
 .error-text {
