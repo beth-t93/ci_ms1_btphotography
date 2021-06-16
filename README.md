@@ -103,6 +103,16 @@ A four page structured site that uses a combination of images and text.
 12. [Bootstrap v5.0.1](https://getbootstrap.com/) was used to create layout and ensure elements were responsive. The elements used include: navigation bar, carousel, accordian, modal and grid.
 13. [Google Fonts](https://fonts.google.com/) Ubuntu was used for headings, while Fira Sans was used for body text.
 
+
+## Features
+### Common Features
+There are features that appear on evey page;
+#### Navigation Bar
+- This was designed using Bootstrap 4, it makes navigating the site simple and is clear for the user.
+- At desktop size the naviagation bar all contains a call to action button which will trigger a modal encouraging the user to contact the photographer.
+- The navigation bar is also fully responsive.
+![images](docs/features/feature-header.png)
+
 ------Features
 EXPLAIN
 ------Validation
