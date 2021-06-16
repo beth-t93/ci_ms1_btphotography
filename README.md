@@ -88,7 +88,7 @@ A four page structured site that uses a combination of images and text.
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
 - [CSS3](https://en.wikipedia.org/wiki/CSS)
 
-## Frameworks, Libraries and Other Tools
+### Frameworks, Libraries and Other Tools
 1. [Affinity Designer](https://affinity.serif.com/en-gb/designer/) was used to create the brand logo.
 2. [Affinity Photo](https://affinity.serif.com/en-gb/photo/) was used to edit and resize single images used throughout the site.
 3. [Adobe Lightroom](https://www.adobe.com/uk/products/photoshop-lightroom.html?mv=search&mv=search&sdid=L7NVTQ8Y&ef_id=CjwKCAjwwqaGBhBKEiwAMk-FtO7niANG60M6gFSKzq4mI38ypFjQKDYBg1cDM0x8TBU7QUdDG22QsBoC3NMQAvD_BwE:G:s&s_kwcid=AL!3085!3!520937987408!e!!g!!adobe%20lightroom!1422699839!59976285750) was used to edit and resize images on the site. Particularly on the Gallery page where there was a large volume of images which needed to be edited and resized to the same dimensions in order to give a uniform look to the page without losing the quality of the image.
