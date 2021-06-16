@@ -73,14 +73,17 @@ All images on the website are taken by the photographer themselves and are high 
 ## Structure
 A four page structured site that uses a combination of images and text.
 
-## Wireframes
+## Wireframes
 - [Home](docs/wireframe/home-wireframes.pdf)
+- [Gallery](docs/wireframe/gallery-wireframes.pdf)
+- [Projects](docs/wireframe/projects-wireframes.pdf)
+- [Contact](docs/wireframe/contact-wireframes.pdf)
+- [Desktop](docs/wireframe/desktop-wireframes.pdf)
+- [Tablet](docs/wireframe/tablet-wireframes.pdf)
+- [Mobile](docs/wireframe/mobile-wireframes.pdf)
 
 
---------Structure
-EXPLAIN
------- Wireframes
-EXPLAIN
+
 ------Technologies used
 EXPLAIN
 ------Features
