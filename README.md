@@ -14,7 +14,10 @@ Key details, such as contact details and location are easy to find
 Easy to find examples of the photographers work and any projects they are working on
 Information should be current and up to date
 
-
+### Target Audience
+- Other artists
+- People who like photography and would like to find out more about a body of work
+- Students who are researching other photographers for their work
 ### User Stories
 #### First Time Visitor Goals
 1. As a first time visitor I want to know what the main aim of the website is and find out more information about the photographer,
@@ -35,18 +38,17 @@ Information should be current and up to date
 
 ### User Requirements and Expectations
 #### Requirements
-Easy to navigate using the menu
-Appealing imagery and design
-Relevant information to accompany the images
-Easy way to contact the photographer
-Clean design that allows the images to be the main attraction to the website
+- Easy to navigate using the menu
+- Appealing imagery and design
+- Relevant information to accompany the images
+- Easy way to contact the photographer
+- Clean design that allows the images to be the main attraction to the website
 
 #### Expectations
-The navigation links take you to the page they say they will
-Social media links will open in a separate tab
-When using the contact button all fields will be required before being able to send the message
-
-
+- The navigation links take you to the page they say they will
+- Social media links will open in a separate tab
+- When using the contact button all fields will be required before being able to send the message
+- Lots of images to showcase the photographers work
 
 ## Design Choices
 The style of the site will be simple and minimal in order to let the photographs themselves do the work to attract users, however the website will still be accessible and easy to navigate.
@@ -62,9 +64,17 @@ I have chosen a colour scheme that is neutral with a single pop of colour.
  -Colour 3: (Hex: 242423) is a grey/balck that will be used as the background colour to allow the photographs to be seen true to colour and allow them to stand out from the page.
  -Colour 4: (Hex: 333533) is a lighter grey that will be used to show any layout components, such as the footer, and in the grid components to seperate information into smaller sections.
 
-
 ### Fonts/Typography
 To ensure the website is easily readable while also keeping to the simple and minimal design, the fonts used are: Ubuntu for headings and Fira Sans for all other text (these are taken from Google Fonts library) with sans-serif being the fallback font should either of the selected fonts be unavailable. 
+
+### Imagery
+All images on the website are taken by the photographer themselves and are high quality. The images give the viewer a taste of how the photographer works.
+
+## Structure
+A four page structured site that uses a combination of images and text.
+
+## Wireframes
+- [Home](docs/wireframe/home-wireframes.pdf)
 
 
 --------Structure
