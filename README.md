@@ -108,10 +108,26 @@ A four page structured site that uses a combination of images and text.
 ### Common Features
 There are features that appear on evey page;
 #### Navigation Bar
+![images](docs/features/feature-header.png)
 - This was designed using Bootstrap 4, it makes navigating the site simple and is clear for the user.
 - At desktop size the naviagation bar all contains a call to action button which will trigger a modal encouraging the user to contact the photographer.
 - The navigation bar is also fully responsive.
-![images](docs/features/feature-header.png)
+
+#### Footer
+![images](docs/features/feature-footer.png)
+- The footer was created using Grid in Bootstrap
+- The footer contains another call to action to prompt the user to ask for more information.
+- It also contains links to social media in the same colours used throughout the site.
+
+#### User stories covered by this feature:
+2. As a first time visitor I want the website to be easy to use and navigate.
+3. As a first time visitor I want the website to be accessible.
+4. As a first time visitor I would like to look at their social media to see more of their work and any reviews.
+6. As a first time visitor I would like to be able to contact the designer quickly and easily with any questions or to commission them.
+8. As a returning visitor I want to be able to contact the photographer as I am interested in commissioning some work or purchasing some of their work.
+11. A a site owner I want user to be able to make contact easily for opportunities, including commissions, exhibitions, events and talks.
+
+
 
 ------Features
 EXPLAIN
