@@ -82,10 +82,27 @@ A four page structured site that uses a combination of images and text.
 - [Tablet](docs/wireframe/tablet-wireframes.pdf)
 - [Mobile](docs/wireframe/mobile-wireframes.pdf)
 
+## Technologies Used
 
+### Languages
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
 
-------Technologies used
-EXPLAIN
+## Frameworks, Libraries and Other Tools
+1. [Affinity Designer](https://affinity.serif.com/en-gb/designer/) was used to create the brand logo.
+2. [Affinity Photo](https://affinity.serif.com/en-gb/photo/) was used to edit and resize single images used throughout the site.
+3. [Adobe Lightroom](https://www.adobe.com/uk/products/photoshop-lightroom.html?mv=search&mv=search&sdid=L7NVTQ8Y&ef_id=CjwKCAjwwqaGBhBKEiwAMk-FtO7niANG60M6gFSKzq4mI38ypFjQKDYBg1cDM0x8TBU7QUdDG22QsBoC3NMQAvD_BwE:G:s&s_kwcid=AL!3085!3!520937987408!e!!g!!adobe%20lightroom!1422699839!59976285750) was used to edit and resize images on the site. Particularly on the Gallery page where there was a large volume of images which needed to be edited and resized to the same dimensions in order to give a uniform look to the page without losing the quality of the image.
+4. [Git](https://git-scm.com/) was used within VS Code for version control to push code to GitHub.
+5. [Github](https://github.com/) was used as a remote repository to store code.
+6. [Am I Responsive](http://ami.responsivedesign.is/) was used to create the mockup you see at the start of this README.md file
+7. [Google Maps](https://www.google.co.uk/maps/@53.2525881,-3.1265367,14z) was used to embed a map with location pin into the site
+8. [Coolors](https://coolors.co/) was used to help put together the colour scheme used throughout the site.
+9. [Visual Studio Code](https://visualstudio.microsoft.com/) is the IDE I used to develop the project.
+10. [Balsamiq](https://balsamiq.com/) was used to create the wireframes for the site
+11. [Font Awesome](https://fontawesome.com/) was used for the icons throughout the site.
+12. [Bootstrap v5.0.1](https://getbootstrap.com/) was used to create layout and ensure elements were responsive. The elements used include: navigation bar, carousel, accordian, modal and grid.
+13. [Google Fonts](https://fonts.google.com/) Ubuntu was used for headings, while Fira Sans was used for body text.
+
 ------Features
 EXPLAIN
 ------Validation
