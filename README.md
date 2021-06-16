@@ -127,6 +127,17 @@ There are features that appear on evey page;
 8. As a returning visitor I want to be able to contact the photographer as I am interested in commissioning some work or purchasing some of their work.
 11. A a site owner I want user to be able to make contact easily for opportunities, including commissions, exhibitions, events and talks.
 
+### Feature 1 - Homepage
+
+The homepage contains 3 main sections;
+1. Image
+2. Information about the photographers work, education and research
+3. A location map to give users an idea of where the photographer is based.
+
+The page is fully responsive on mobile and tablet.
+
+#### 1 - Image
+
 
 
 ------Features
