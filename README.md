@@ -125,11 +125,12 @@ There are features that appear on evey page;
 4. As a first time visitor I would like to look at their social media to see more of their work and any reviews.
 6. As a first time visitor I would like to be able to contact the designer quickly and easily with any questions or to commission them.
 8. As a returning visitor I want to be able to contact the photographer as I am interested in commissioning some work or purchasing some of their work.
+10. As a site owner I want to make connections with potential new customers
 11. A a site owner I want user to be able to make contact easily for opportunities, including commissions, exhibitions, events and talks.
 
 ### Feature 1 - Homepage
 
-The homepage contains 3 main sections;
+The homepage contains three main sections;
 1. Image
 2. Information about the photographers work, education and research
 3. A location map to give users an idea of where the photographer is based.
@@ -151,6 +152,31 @@ For the second part I wanted to make the information easier to read and digest. 
 For this section I again decided to use the grid component to structure the information.
 
 The map is embedded from Google Maps.
+
+#### User stories covered by this feature:
+1. As a first time visitor I want to know what the main aim of the website is and find out more information about the photographer.
+9. As a site owner I want to show off my work to demonstrate my skill as a photographer
+
+### Feature 2 - Gallery
+
+The gallery contains two main sections;
+1. Heading
+2. Image gallery
+
+#### 1 - Heading
+![images](docs/features/feature-gallery-heading.png)
+This part of the page tells the user what the page is and also tells them where to find more information using a hyperlink in the text.
+
+#### 2 - Images
+![images](docs/features/feature-gallery-images.png)
+This part of the page displays a selection of images using a responsive grid, similar to how the gallery page was structured in the Love Running project from Code Institute.
+
+The grid is responsive so the number og columns in the grid willl decrease.
+
+#### User stories covered by this feature:
+5. As a first time visitor I would like to know about any new projects or exhibitions that the photographer may be featured in.
+7. As a returning visitor I want to be able to see any new work or updates to any work.
+9. As a site owner I want to show off my work to demonstrate my skill as a photographer.
 
 
 
