@@ -287,6 +287,13 @@ For more information about the form please see feature 4, part 3.
 10. As a site owner I want to make connections with potential new customers
 11. A a site owner I want user to be able to make contact easily for opportunities, including commissions, exhibitions, events and talks.
 
+## Validation and Testing
+
+### HTML Validation
+
+
+
+
 
 
 
