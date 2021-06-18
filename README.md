@@ -25,7 +25,7 @@ Information should be current and up to date
 3. As a first time visitor I want the website to be accessible.
 4. As a first time visitor I would like to look at their social media to see more of their work and any reviews.
 5. As a first time visitor I would like to know about any new projects or exhibitions that the photographer may be featured in.
-6. As a first time visitor I would like to be able to contact the designer quickly and easily with any questions or to commission them.
+6. As a first time visitor I would like to be able to contact the photographer quickly and easily with any questions or to commission them.
 
 #### Returning Visitor Goals
 7. As a returning visitor I want to be able to see any new work or updates to any work
@@ -392,29 +392,44 @@ All devices passed the tests.
 | --- | ----------- | --- | ----------- |
 | Projects and Gallery Pages | Navigate to the projects or galelry pages in the naviagation bar | To be taken to the specific page you clicked the link for | Works as expected |
 
-6. As a first time visitor I would like to be able to contact the designer quickly and easily with any questions or to commission them.
+6. As a first time visitor I would like to be able to contact the photographer quickly and easily with any questions or to commission them.
+
 | Feature | Action | Expected Result | Actual Result |
 | --- | ----------- | --- | ----------- |
+| Booking Modal | Click the 'Booking' button in the header or footer | A modal with a contact form will show on the page | Works as expected |
+| Contact Page | Use either the contact form or use the contact details listed | Easily contact the photographer | Works as expected |
 
 7. As a returning visitor I want to be able to see any new work or updates to any work
+
 | Feature | Action | Expected Result | Actual Result |
 | --- | ----------- | --- | ----------- |
+| Projects Page | Navigate to Projects using the navigation bar | To be taken to the projects page | Works as expected |
+| Social media links | Navigate to the phtoographers social media using the links in the footer | Be taken to the relevant social media page | Works as expected |
 
 8. As a returning visitor I want to be able to contact the photographer as I am interested in commissioning some work or purchasing some of their work.
+
 | Feature | Action | Expected Result | Actual Result |
 | --- | ----------- | --- | ----------- |
+| Booking Modal | Click the 'Booking' button in the header or footer | A modal with a contact form will show on the page | Works as expected |
+| Contact Page | Use either the contact form or use the contact details listed | Easily contact the photographer | Works as expected |
 
 9. As a site owner I want to show off my work to demonstrate my skill as a photographer
+
 | Feature | Action | Expected Result | Actual Result |
 | --- | ----------- | --- | ----------- |
+| Gallery and Projects Pages | Upload work to the gallery and projects page | Both pages contain up to date work and project information | Works as expected |
 
 10. As a site owner I want to make connections with potential new customers
+
 | Feature | Action | Expected Result | Actual Result |
 | --- | ----------- | --- | ----------- |
+| Contact and booking links | Make all relevant buttons and links stand out so users can see them clearly | Set all colours and text weights to stand out from the surrounding content, make used of the hover state to change text colour | Works as expected |
 
 11. A a site owner I want user to be able to make contact easily for opportunities, including commissions, exhibitions, events and talks.
+
 | Feature | Action | Expected Result | Actual Result |
 | --- | ----------- | --- | ----------- |
+| Contact and booking links | Make all relevant buttons and links stand out so users can see them clearly | Set all colours and text weights to stand out from the surrounding content, make used of the hover state to change text colour | Works as expected |
 
 
 
