@@ -465,6 +465,29 @@ All devices passed the tests.
 - Bug: WAVE contrast error for social media icons alt text
 - Fix: Set the colour of the alt text in CSS to the same colour as the icons.
 
+## Deployment
+
+### Github Pages
+This site is deployed using GitHub pages, this was the process:
+1. Log in and selected my MS1 repository
+2. Go to settings in the repository
+3. Go to 'Pages" in the menu
+4. Click 'source'
+5. Change to dropdown menu from 'none' to 'main'
+6. Click the link to the delpoyed site once the page has reloaded
+
+### Forking this Repository
+1. Find the repository on GitHub
+2. Click the 'Fork' button on the top right of the page
+3. You will now have a copy of the repository on your Github account
+
+### Cloning this Repository
+1. Find the repository on Github
+2. Click on 'Code'
+3. To clone using HTTPS - copy the url
+4. Open Git and go to the directory you want to become the cloned directory
+5. In the terminal type 'git clone' and the url
+6. Press enter for the clone to be created.
 
 
 
