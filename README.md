@@ -331,26 +331,34 @@ Click on the page name to see the result:
 - [Contact](docs/validation/lighthouse/lighthouse-contact.png)
 - [404](docs/validation/lighthouse/lighthouse-404.png)
 
+### Testing on other devices
 
+#### Devices tested:
+- iPhone 12 Pro
+- Samsung s20+
+- iPad Pro 11"
+- 21.5" iMac
+- Asus Chromebook Flip C434TA
 
+#### Tests Performed
+- The navigation bar successfully directs users to the correct page with no broken links
+- Internal and external links direct users to the correct page with no broken links
+- The logo directs users back to the home page from all pages.
+- The booking modal opens and closes correctly.
+- The booking modal button does not display in mobile view to make the website easier to use and navigate on mobile.
+- The form on the modal and on the contact page will not submit unless all fields are filled out.
+- The text on the homepage is fully responsive so can be read easily on any screen size.
+- The map has a location pin showing the user where the photographer is based
+- The image grid on the gallery page is responsive making it easy for user to look at the images at all screen sizes
+- All elements on the projects page are easy to read and navigate on all screen sizes.
+- All copy text on the site is clear and legible.
+- Should an error occur users are taken to a 404 page where they can easily naviagate back to other pages on the site.
+- Images on the site scale with the screen size so there is no horizontal scrolling to view a full image.
 
+#### Results
+All devices passed the tests.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### Testing of User Stories
 
 
 
