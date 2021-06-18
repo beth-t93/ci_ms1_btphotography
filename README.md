@@ -109,12 +109,14 @@ A four page structured site that uses a combination of images and text.
 There are features that appear on evey page;
 #### Navigation Bar
 ![images](docs/features/feature-header.png)
+
 - This was designed using Bootstrap 4, it makes navigating the site simple and is clear for the user.
 - At desktop size the naviagation bar all contains a call to action button which will trigger a modal encouraging the user to contact the photographer.
 - The navigation bar is also fully responsive.
 
 #### Footer
 ![images](docs/features/feature-footer.png)
+
 - The footer was created using Grid in Bootstrap
 - The footer contains another call to action to prompt the user to ask for more information.
 - It also contains links to social media in the same colours used throughout the site.
@@ -139,6 +141,7 @@ The page is fully responsive on mobile and tablet.
 
 #### 1 - Image
 ![images](docs/features/feature-index-image.png)
+
 As this is the first thing a user will see on the site the image needs to be striking and also intrigue the user to make them want to see more of the work.
 
 Like all this images used on the site this image was taken by myself.
@@ -146,12 +149,14 @@ Like all this images used on the site this image was taken by myself.
 
 #### 2 - About the Photographer
 ![images](docs/features/feature-index-information.png)
+
 This section was created using a div with paragraph elements for the first part.
 
 For the second part I wanted to make the information easier to read and digest. To do this I used the grid component from Bootstrap to give me three columns wich seperate the information into smaller, more manageable chunks while also being fully responsive for all screen sizes.
 
 #### 3 - Map and location
 ![images](docs/features/feature-index-map.png)
+
 For this section I again decided to use the grid component to structure the information.
 
 The map is embedded from Google Maps.
@@ -168,10 +173,12 @@ The gallery contains two main sections;
 
 #### 1 - Heading
 ![images](docs/features/feature-gallery-heading.png)
+
 This part of the page tells the user what the page is and also tells them where to find more information using a hyperlink in the text.
 
 #### 2 - Images
 ![images](docs/features/feature-gallery-images.png)
+
 This part of the page displays a selection of images using a responsive grid, similar to how the gallery page was structured in the Love Running project from Code Institute.
 
 The grid is responsive so the number og columns in the grid willl decrease.
@@ -195,25 +202,29 @@ This page contains 4 main sections;
 
 #### 1 - Page Heading
 ![images](docs/features/feature-projects-heading.png)
+
 I wanted to make it easy for every user to know which page of the site they are on at all times.
 
 I found that adding a heading to every page was the best way to do this.
 
 #### 2 - Image Carousel
-![images](docs/features/feature-gallery-carousel.png)
+![images](docs/features/feature-projects-carousel.png)
+
 For this section I used the carousel component from Bootstrap as a way to give the users a taste of the work with their relevant project titles as the caption.
 
 Like all this images used on the site they were taken by myself.
 
 
 #### 3 - Accordian
-![images](docs/features/feature-gallery-accordian.png)
+![images](docs/features/feature-projects-accordian.png)
+
 For this section I used the accordian component from Bootstrap as I wanted to keep the page design clean and simple, but not to lose any of the written content.
 
 Each section contains information about one of the photographers projects.
 
 #### 4 - Other Services
-![images](docs/features/feature-gallery-other-services.png)
+![images](docs/features/feature-projects-other-services.png)
+
 This section lists other services which are offered by the photographer, as well as another link for the user to contact the photographer.
 
 I designed this section using a grid from Bootstrap to keep it responsive. I decided to use simple images for each service, in order to make it easy to distinguish that they are all different types of services.
