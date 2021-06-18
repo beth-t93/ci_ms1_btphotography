@@ -290,7 +290,7 @@ For more information about the form please see feature 4, part 3.
 ## Validation and Testing
 
 ### HTML Validation
-I used the - [W3C Markup Validation Service](https://validator.w3.org/) to validate the HTML of the website. All pages passed with 0 errors and 0 warnings.
+I used the [W3C Markup Validation Service](https://validator.w3.org/) to validate the HTML of the website. All pages passed with 0 errors and 0 warnings.
 
 Click on the page name to see the result:
 
@@ -300,6 +300,36 @@ Click on the page name to see the result:
 - [Contact](docs/validation/html/html-validation-contact.png)
 - [404](docs/validation/html/html-validation-404.png)
 
+### CSS Validation
+I used the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to validate the CSS of the website.
+
+[The CSS](docs/validation/css/css-validation.png) contained errors with third party code, but 0 errors with code I had written.
+
+### Accessibility
+I used the [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/) to check that my website was accessible.
+
+All pages contained 0 errors.
+
+Click on the page name to see the result:
+
+- [Home](docs/validation/acessibility/WAVE-index.png)
+- [Gallery](docs/validation/acessibility/WAVE-gallery.png)
+- [Projects](docs/validation/acessibility/WAVE-projects.png)
+- [Contact](docs/validation/acessibility/WAVE-contact.png)
+- [404](docs/validation/acessibility/WAVE-404.png)
+
+### Performance
+I used [Google Lighthouse]](https://developers.google.com/web/tools/lighthouse) to measure the performance and speed of my website.
+
+All pages passed with at least 91% on performance, at least 96% (The gallery, projects and 404 page socred 100%) on accessibility, 93% on best practices and  at least 92% (The contact page socred 100%) on SEO,
+
+Click on the page name to see the result:
+
+- [Home](docs/validation/lighthouse/lighthouse-index.png)
+- [Gallery](docs/validation/lighthouse/lighthouse-gallery.png)
+- [Projects](docs/validation/lighthouse/lighthouse-projects.png)
+- [Contact](docs/validation/lighthouse/lighthouse-contact.png)
+- [404](docs/validation/lighthouse/lighthouse-404.png)
 
 
 
@@ -322,8 +352,8 @@ Click on the page name to see the result:
 
 
 
-------Validation
-EXPLAIN
+
+
 ------Testing of User Stories(Feature-Action-Expected result-Actual result)
 EXPLAIN
 ------Bugs
