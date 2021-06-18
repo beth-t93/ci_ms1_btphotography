@@ -290,6 +290,19 @@ For more information about the form please see feature 4, part 3.
 ## Validation and Testing
 
 ### HTML Validation
+I used the - [W3C Markup Validation Service](https://validator.w3.org/) to validate the HTML of the website. All pages passed with 0 errors and 0 warnings.
+
+Click on the page name to see the result:
+
+- [Home](docs/validation/html/html-validation-index.png)
+- [Gallery](docs/validation/html/html-validation-gallery.png)
+- [Projects](docs/validation/html/html-validation-projects.png)
+- [Contact](docs/validation/html/html-validation-contact.png)
+- [404](docs/validation/html/html-validation-404.png)
+
+
+
+
 
 
 
