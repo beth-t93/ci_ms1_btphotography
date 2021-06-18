@@ -490,13 +490,14 @@ This site is deployed using GitHub pages, this was the process:
 5. In the terminal type 'git clone' and the url
 6. Press enter for the clone to be created.
 
+## Credits
+### Content
+- The copy for this website was written by myself
+- All of the images used on the site were taken by myself
 
-
-
-
-------Deployment
-EXPLAIN
-------Credit
-EXPLAIN
------Acknowledgements
-EXPLAIN
+### Code
+- [Bootstrap:](https://getbootstrap.com/) for:
+    - Carousel
+    - Accordian
+    - Grid
+    - Navigation bar
