@@ -137,11 +137,23 @@ The homepage contains 3 main sections;
 The page is fully responsive on mobile and tablet.
 
 #### 1 - Image
+![images](docs/features/feature-index-image.png)
+As this is the first thing a user will see on the site the image needs to be striking and also intrigue the user to make them want to see more of the work.
+
+#### 2 - About the Photographer
+![images](docs/features/feature-index-information.png)
+This section was created using a div with paragraph elements for the first part.
+
+For the second part I wanted to make the information easier to read and digest. To do this I used the grid component from Bootstrap to give me three columns wich seperate the information into smaller, more manageable chunks while also being fully responsive for all screen sizes.
+
+#### 3 - Map and location
+![images](docs/features/feature-index-map.png)
+For this section I again decided to use the grid component to structure the information.
+
+The map is embedded from Google Maps.
 
 
 
-------Features
-EXPLAIN
 ------Validation
 EXPLAIN
 ------Testing of User Stories(Feature-Action-Expected result-Actual result)
