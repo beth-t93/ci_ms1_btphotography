@@ -465,7 +465,8 @@ All devices passed the tests.
 - Bug: WAVE contrast error for social media icons alt text
 - Fix: Set the colour of the alt text in CSS to the same colour as the icons.
 
-## Deployment
+
+## Deployment
 
 ### Github Pages
 This site is deployed using GitHub pages, this was the process:
