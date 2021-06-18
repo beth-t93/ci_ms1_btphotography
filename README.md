@@ -437,23 +437,30 @@ All devices passed the tests.
 - Bug: Google Map would overflow the side of the page in mobile and tablet.
 - Fix: Used [a blog post on Duda](https://blog.duda.co/responsive-google-maps-for-your-website) to help which told me to set width to 100% rather than fixed number as it said on Google Maps embedding instructions.
 
+
 - Bug: Footer would display too wide with horizontal scroll in mobile view.
 - Fix: The width had been set to 110% so I changed this to 100% instead.
+
 
 - Bug: Images on the gallery page were not responsive.
 - Fix: used the class 'img-fluid' from Bootstrap.
 
+
 - Bug: Modal was not necessary in mobile view, but the button would still display in the header and footer.
 - Fix: Used [Stack Overflow](https://stackoverflow.com/questions/36637802/how-to-hide-bootstrap-modal-in-mobile) to go through display characteristic in CSS.
+
 
 - Bug: Test area in form would overflow the page and modal on smaller displays
 - Fix: Used [Stack Overflow](https://stackoverflow.com/questions/39068128/how-can-i-make-a-textarea-that-fits-within-the-width-of-the-current-viewport/39068155) to go through setting the max width and div set up of the form.
 
+
 - Bug: Internal links were not working on mobile devices.
 - Fix: Checked and retyped the internal links without /.
 
+
 - Bug: Favicon would not load on all pages.
 - Fix: Checked [Favicon](https://favicon.io/tutorials/how-to-add-a-favicon-to-a-website-png-format/) instructions again.
+
 
 - Bug: WAVE contrast error for social media icons alt text
 - Fix: Set the colour of the alt text in CSS to the same colour as the icons.
