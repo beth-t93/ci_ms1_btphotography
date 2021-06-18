@@ -360,7 +360,11 @@ All devices passed the tests.
 
 ### Testing of User Stories
 
+1. As a first time visitor I want to know what the main aim of the website is and find out more information about the photographer,
 
+| Feature | Action | Expected Result | Actual Result |
+| --- | ----------- | --- | ----------- | 
+| Find the information about the photographer on the homepage | Scroll down | To find the photographers information on the home page | Works as expected |
 
 ------Testing of User Stories(Feature-Action-Expected result-Actual result)
 EXPLAIN
