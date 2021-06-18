@@ -68,7 +68,7 @@ I have chosen a colour scheme that is neutral with a single pop of colour.
 To ensure the website is easily readable while also keeping to the simple and minimal design, the fonts used are: Ubuntu for headings and Fira Sans for all other text (these are taken from Google Fonts library) with sans-serif being the fallback font should either of the selected fonts be unavailable. 
 
 ### Imagery
-All images on the website are taken by the photographer themselves and are high quality. The images give the viewer a taste of how the photographer works.
+All images on the website are taken by myself and are high quality. The images give the viewer a taste of how the photographer works.
 
 ## Structure
 A four page structured site that uses a combination of images and text.
@@ -141,6 +141,9 @@ The page is fully responsive on mobile and tablet.
 ![images](docs/features/feature-index-image.png)
 As this is the first thing a user will see on the site the image needs to be striking and also intrigue the user to make them want to see more of the work.
 
+Like all this images used on the site this image was taken by myself.
+
+
 #### 2 - About the Photographer
 ![images](docs/features/feature-index-information.png)
 This section was created using a div with paragraph elements for the first part.
@@ -157,7 +160,7 @@ The map is embedded from Google Maps.
 1. As a first time visitor I want to know what the main aim of the website is and find out more information about the photographer.
 9. As a site owner I want to show off my work to demonstrate my skill as a photographer
 
-### Feature 2 - Gallery
+### Feature 2 - Gallery Page
 
 The gallery contains two main sections;
 1. Heading
@@ -173,10 +176,61 @@ This part of the page displays a selection of images using a responsive grid, si
 
 The grid is responsive so the number og columns in the grid willl decrease.
 
+Like all this images used on the site they were taken by myself.
+
+
 #### User stories covered by this feature:
 5. As a first time visitor I would like to know about any new projects or exhibitions that the photographer may be featured in.
 7. As a returning visitor I want to be able to see any new work or updates to any work.
 9. As a site owner I want to show off my work to demonstrate my skill as a photographer.
+
+
+### Feature 3 - Projects Page
+
+This page contains 4 main sections;
+1. Page heading
+2. Image carousel
+3. Accordian
+4. Other Services
+
+#### 1 - Page Heading
+![images](docs/features/feature-projects-heading.png)
+I wanted to make it easy for every user to know which page of the site they are on at all times.
+
+I found that adding a heading to every page was the best way to do this.
+
+#### 2 - Image Carousel
+![images](docs/features/feature-gallery-carousel.png)
+For this section I used the carousel component from Bootstrap as a way to give the users a taste of the work with their relevant project titles as the caption.
+
+Like all this images used on the site they were taken by myself.
+
+
+#### 3 - Accordian
+![images](docs/features/feature-gallery-accordian.png)
+For this section I used the accordian component from Bootstrap as I wanted to keep the page design clean and simple, but not to lose any of the written content.
+
+Each section contains information about one of the photographers projects.
+
+#### 4 - Other Services
+![images](docs/features/feature-gallery-other-services.png)
+This section lists other services which are offered by the photographer, as well as another link for the user to contact the photographer.
+
+I designed this section using a grid from Bootstrap to keep it responsive. I decided to use simple images for each service, in order to make it easy to distinguish that they are all different types of services.
+
+Like all this images used on the site they were taken by myself.
+
+#### User stories covered by this feature:
+3. As a first time visitor I want the website to be accessible.
+5. As a first time visitor I would like to know about any new projects or exhibitions that the photographer may be featured in.
+6. As a first time visitor I would like to be able to contact the designer quickly and easily with any questions or to commission them.
+7. As a returning visitor I want to be able to see any new work or updates to any work
+8. As a returning visitor I want to be able to contact the photographer as I am interested in commissioning some work or purchasing 
+some of their work.
+9. As a site owner I want to show off my work to demonstrate my skill as a photographer
+10. As a site owner I want to make connections with potential new customers
+11. A a site owner I want user to be able to make contact easily for opportunities, including commissions, exhibitions, events and talks.
+
 
 
 
