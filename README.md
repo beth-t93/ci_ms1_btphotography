@@ -242,6 +242,37 @@ some of their work.
 10. As a site owner I want to make connections with potential new customers
 11. A a site owner I want user to be able to make contact easily for opportunities, including commissions, exhibitions, events and talks.
 
+### Feature 3 - Contact Page
+This page contains three main sections;
+1. Image
+2. Contact Information
+3. Contact Form
+
+#### 1 - Image
+
+![images](docs/features/feature-contact-image.png)
+I decided to add an eyecatching image to this page to draw the user in with the smaller details within the image - this also helps keep the feel of the website contsistent between pages.
+
+Like all this images used on the site it was taken by myself.
+
+#### 2 - Contact Information
+
+![images](docs/features/feature-contact-details.png)
+I used Font Awesome icons alongside text to keep this section simple and easy to read.
+
+I also decided to use a brighter colour to make the details stand out from the page.
+
+#### 3 - Form
+
+![images](docs/features/feature-contact-form.png)
+The form is fully responsive and uses the POST method.
+
+All fields are set to required so it cannot be submitted until all fields are entered.
+
+
+
+
+
 
 
 
