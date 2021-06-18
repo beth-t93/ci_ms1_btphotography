@@ -242,7 +242,7 @@ some of their work.
 10. As a site owner I want to make connections with potential new customers
 11. A a site owner I want user to be able to make contact easily for opportunities, including commissions, exhibitions, events and talks.
 
-### Feature 3 - Contact Page
+### Feature 4 - Contact Page
 This page contains three main sections;
 1. Image
 2. Contact Information
@@ -255,7 +255,7 @@ I decided to add an eyecatching image to this page to draw the user in with the 
 Like all this images used on the site it was taken by myself.
 
 #### 2 - Contact Information
-![images](docs/features/feature-contact-details.png)]
+![images](docs/features/feature-contact-details.png)
 
 I used Font Awesome icons alongside text to keep this section simple and easy to read.
 
@@ -264,7 +264,7 @@ I also decided to use a brighter colour to make the details stand out from the p
 #### 3 - Form
 ![images](docs/features/feature-contact-form.png)
 
-The form is fully responsive and uses the POST method.
+The form is fully responsive and uses the POST method. It gives users a simple way to contact the photographer directly.
 
 All fields are set to required so it cannot be submitted until all fields are entered.
 
@@ -273,6 +273,17 @@ All fields are set to required so it cannot be submitted until all fields are en
 8. As a returning visitor I want to be able to contact the photographer as I am interested in commissioning some work or purchasing some of their work.
 10. As a site owner I want to make connections with potential new customers
 11. A a site owner I want user to be able to make contact easily for opportunities, including commissions, exhibitions, events and talks.
+
+### Feature 5 - Booking Modal
+![images](docs/features/feature-modal.png)
+
+The modal opens when the user clicks on the 'Booking' button in the navigation bar, or in the footer.
+
+For more information about the form please see feature 4, part 3.
+
+
+
+
 
 
 
