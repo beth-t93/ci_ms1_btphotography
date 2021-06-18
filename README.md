@@ -281,6 +281,12 @@ The modal opens when the user clicks on the 'Booking' button in the navigation b
 
 For more information about the form please see feature 4, part 3.
 
+#### User stories covered by this feature:
+6. As a first time visitor I would like to be able to contact the designer quickly and easily with any questions or to commission them.
+8. As a returning visitor I want to be able to contact the photographer as I am interested in commissioning some work or purchasing some of their work.
+10. As a site owner I want to make connections with potential new customers
+11. A a site owner I want user to be able to make contact easily for opportunities, including commissions, exhibitions, events and talks.
+
 
 
 
