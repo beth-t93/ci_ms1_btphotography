@@ -364,10 +364,61 @@ All devices passed the tests.
 
 | Feature | Action | Expected Result | Actual Result |
 | --- | ----------- | --- | ----------- | 
-| Find the information about the photographer on the homepage | Scroll down | To find the photographers information on the home page | Works as expected |
+| Information about the photographer on the homepage | Scroll down | To find the photographers information on the home page | Works as expected |
 
-------Testing of User Stories(Feature-Action-Expected result-Actual result)
-EXPLAIN
+2. As a first time visitor I want the website to be easy to use and navigate.
+
+| Feature | Action | Expected Result | Actual Result |
+| --- | ----------- | --- | ----------- |
+| Sinple, easy to navigate design | User can easily see all the possible paths clearly | User successfully finds what they were looking for on the site | Works as expected |
+
+3. As a first time visitor I want the website to be accessible.
+
+| Feature | Action | Expected Result | Actual Result |
+| --- | ----------- | --- | ----------- |
+|Responsive simple design | Site can be viewed on desktop, tablet and mobile with no issues | The site changes in response to the display size to give all users a good user experience |
+| High contrast colour scheme | All text on the site is in a contrasting colour to the background | Users are able to clearly read all text | Works as expected |
+| alt tags on all images | Screen reader users are able to know what each image is of | All images have an alt tag | Works as expected |
+
+4. As a first time visitor I would like to look at their social media to see more of their work and any reviews.
+
+| Feature | Action | Expected Result | Actual Result |
+| --- | ----------- | --- | ----------- |
+| Social icons in the footer of all pages | Scroll to bottom of page | Works as expected |
+
+5. As a first time visitor I would like to know about any new projects or exhibitions that the photographer may be featured in.
+
+| Feature | Action | Expected Result | Actual Result |
+| --- | ----------- | --- | ----------- |
+| Projects and Gallery Pages | Navigate to the projects or galelry pages in the naviagation bar | To be taken to the specific page you clicked the link for | Works as expected |
+
+6. As a first time visitor I would like to be able to contact the designer quickly and easily with any questions or to commission them.
+| Feature | Action | Expected Result | Actual Result |
+| --- | ----------- | --- | ----------- |
+
+7. As a returning visitor I want to be able to see any new work or updates to any work
+| Feature | Action | Expected Result | Actual Result |
+| --- | ----------- | --- | ----------- |
+
+8. As a returning visitor I want to be able to contact the photographer as I am interested in commissioning some work or purchasing some of their work.
+| Feature | Action | Expected Result | Actual Result |
+| --- | ----------- | --- | ----------- |
+
+9. As a site owner I want to show off my work to demonstrate my skill as a photographer
+| Feature | Action | Expected Result | Actual Result |
+| --- | ----------- | --- | ----------- |
+
+10. As a site owner I want to make connections with potential new customers
+| Feature | Action | Expected Result | Actual Result |
+| --- | ----------- | --- | ----------- |
+
+11. A a site owner I want user to be able to make contact easily for opportunities, including commissions, exhibitions, events and talks.
+| Feature | Action | Expected Result | Actual Result |
+| --- | ----------- | --- | ----------- |
+
+
+
+
 ------Bugs
 EXPLAIN
 ------Deployment
