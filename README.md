@@ -1,4 +1,5 @@
-![images](assets/images/logo2.jpg)
+![images](assets/images/logo2.jpg)  
+
 ![images](docs/mockup/responsive-mockup.png)
 
 View the deployed site here: https://beth-t93.github.io/ci_ms1_btphotography/
