@@ -1,4 +1,4 @@
-![images](assets/images/logo2.jpg)  
+# ![images](assets/images/logo2.jpg)  
 
 ![images](docs/mockup/responsive-mockup.png)
 
