@@ -7,7 +7,7 @@ View the deployed site here: https://beth-t93.github.io/ci_ms1_btphotography/
 ## Table of Contents
 
 - [Project Goals](#project-goals)
-- [User Experience](#user-experience--ux-)
+- [User Experience](#user-experience)
     - [User Goals](#user-goals)
     - [Target Audience](#target-audience)
     - [User Stories](#user-stories)
