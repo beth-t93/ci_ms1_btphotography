@@ -559,7 +559,7 @@ This site is deployed using GitHub pages, this was the process:
 - [Stack Overflow](https://stackoverflow.com/questions/39068128/how-can-i-make-a-textarea-that-fits-within-the-width-of-the-current-viewport/39068155) for help with making text fields responsive, and using diplay in CSS.
 - Code Institue - for creating the layout of the gallery images, inspired by the Love Running Mini Project.
 - [W3 Schools](https://www.w3schools.com/howto/howto_css_three_columns.asp) for help setting up a three column grid
-- [Web.dev](https://web.dev/meta-description/?utm_source=lighthouse&utm_medium=devtools) for help with etting up a meta description after Lighthouse testing.
+- [Web.dev](https://web.dev/meta-description/?utm_source=lighthouse&utm_medium=devtools) for help with setting up a meta description after Lighthouse testing.
 - [HTML Dog](https://www.htmldog.com/techniques/404/) for help adding a 404 error page to the site.
 
 ## Acknowledgements
