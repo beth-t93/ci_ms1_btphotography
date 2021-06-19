@@ -1,30 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap');
 
 /*----------------------------------- Colours -------*/
-
 .background {
 	background-color: #242423;
 }
-.header-block {
-	background-color: #242423;
-	width: 100%;
-	padding: 0;
-	text-align: center;
-	max-height: 125px;
-}
-/*----------------------------------- Header -------*/
 
+/*----------------------------------- Header -------*/
 header {
 	background-color: #242423;
 	margin-bottom: 10px;
 }
+
+/*------ Logo Styling ---------*/
 .logo {
 	margin: auto;
 }
+
 .logo-icon {
 	max-height: 150px;
 	padding-left: 30px;
 }
+
+/*------ Navigation bar, adding custom styling to a bootstrap component ---------*/
 .navbar .navbar-nav {
 	float: none;
 	background-color: #242423;
@@ -32,27 +29,36 @@ header {
 	max-width: 1000px;
 	padding: 50px;
 }
+
 .navbar .navbar-collapse {
 	text-align: center;
 }
+
 .show .navbar-nav {
 	padding-top: 10px;
+	padding-bottom: 50px;
 }
+
 .nav-link {
 	color: #E8EDDF;
 	font-family: "Ubuntu", sans-serif;
 	text-decoration: none;
 }
+
 .burger {
 	color: #F5CB5C;
 	font-size: 150%;
 }
+
 .navbartoggler {
 	color: #F5CB5C;
 }
+
 .logo {
 	text-decoration: none;
 }
+
+/*------ Button which opens modal ---------*/
 .contact-btn {
 	background-color: #F5CB5C;
 	color: #242423;
@@ -65,13 +71,14 @@ header {
 	text-align: center;
 	border: none;
 }
+/*------ Media query to hide this button in mobile view ---------*/
 @media screen and (max-width: 991px) {
 	.contact-btn {
 		display: none;
 	}
 }
-/*------------------------------------Modal----------*/
 
+/*------------------------------------Modal----------*/
 .modal-content {
 	color: #E8EDDF;
 	background-color: #333533;
@@ -83,11 +90,12 @@ header {
 	padding: 20px;
 	max-width: 100%;
 }
-.modal-body input,
-textarea {
+
+.modal-body input, textarea {
 	width: 300px;
 	border-radius: 4px;
 }
+
 .send-btn {
 	background-color: #F5CB5C;
 	color: #242423;
@@ -101,18 +109,21 @@ textarea {
 	max-width: 100px;
 	float: right;
 }
-/*----------------------------------- Index Body -------*/
 
+/*----------------------------------- Index Body -------*/
 .main-image {
 	max-width: 100%;
 	height: auto;
 }
+
 .home-image {
 	text-align: center;
 	max-width: 1200px;
 	margin: auto;
 	padding-bottom: 5px;
 }
+
+/*------ Text about section ---------*/
 .introduction {
 	color: #E8EDDF;
 	font-family: "Ubuntu", sans-serif;
@@ -122,9 +133,8 @@ textarea {
 	float: none;
 	padding: 10px;
 }
-.education,
-.influences,
-.research {
+
+.education, .influences, .research {
 	color: #E8EDDF;
 	background-color: #333533;
 	text-align: center;
@@ -134,18 +144,23 @@ textarea {
 	padding: 10px;
 	margin-top: 10px;
 }
+
 .info h4 {
 	color: #F5CB5C;
 }
+
 .education {
 	line-height: 25px;
 }
+
 .influences p {
 	list-style: none;
 	line-height: 25px;
 }
+
 /*------ Map and Location Section ---------*/
 
+/*------ See notes in HTML, used 100% to make the map responsive ---------*/
 .map {
     width: 100%;
 }
@@ -160,18 +175,22 @@ textarea {
 	padding-bottom: 5px;
 	margin: auto;
 }
+
 .location h4 {
 	color: #F5CB5C;
 	padding: 10px;
 }
+
 iframe {
 	padding-bottom: 5px;
 }
+
 .click-here {
 	color: #E8EDDF;
 	text-decoration: none;
 	font-weight: 500;
 }
+
 .click-here:hover {
 	color: #F5CB5C;
 }
@@ -187,6 +206,7 @@ iframe {
 	text-align: left;
 	kerning: 8px;
 }
+
 .gallery-title p {
 	color: #E8EDDF;
 	font-family: "Ubuntu", sans-serif;
@@ -194,13 +214,17 @@ iframe {
     padding-top: 0px;
 	float: left;
 }
+
 .project-link {
 	text-decoration: none;
 	color: #E8EDDF;
 }
+
 .project-link:hover {
 	color: #F5CB5C;
 }
+
+/*------ Gallery images grid design ---------*/
 #gallery-images {
 	clear: both;
 	line-height: 30px;
@@ -208,11 +232,13 @@ iframe {
 	column-gap: 15px;
 	padding: 30px;
 }
+
 @media screen and (max-width: 800px) {
 	#gallery-images {
 		column-count: 2;
 	}
 }
+
 #gallery-images img {
 	padding-bottom: 15px;
 }
@@ -226,29 +252,34 @@ iframe {
 	margin: auto;
 	padding-top: 0px;
 }
+
 .carousel h5 {
 	color: #E8EDDF;
 	font-family: "Ubuntu", sans-serif;
 }
+
 .accordion {
 	background-color: #242423;
 }
+
 #accordionProjects {
 	max-width: 1000px;
 	margin: auto;
 	padding-bottom: 20px;
 	font-family: "Fira Sans", sans-serif;
 }
+
 .accordion-button {
 	color: #E8EDDF;
 	background-color: #333533;
 }
+
 .accordion-body {
 	color: #E8EDDF;
 	background-color: #242423;
 }
-/*------ Other Services Table ---------*/
 
+/*------ Other Services Table ---------*/
 .services-title {
 	color: #F5CB5C;
 	font-family: "Fira Sans", sans-serif;
@@ -261,9 +292,11 @@ iframe {
 	text-align: left;
 	kerning: 8px;
 }
+
 .row {
 	margin: 20px;
 }
+
 .column {
 	float: left;
 	width: 33.33%;
@@ -271,21 +304,25 @@ iframe {
 	font-family: "Ubuntu", sans-serif;
 	text-align: center;
 }
+
 .row:after {
 	content: "";
 	display: table;
 	clear: both;
 }
+
 @media screen and (max-width: 600px) {
 	.column {
 		width: 100%;
 	}
 }
+
 .service-img {
 	width: 80%;
 	border-radius: 50%;
 	padding-bottom: 10px;
 }
+
 .services p {
 	color: #E8EDDF;
 	font-family: "Ubuntu", sans-serif;
@@ -298,6 +335,7 @@ iframe {
 	float: none;
 	text-align: center;
 }
+
 .contact-form {
 	color: #E8EDDF;
 	padding-bottom: 20px;
@@ -305,6 +343,7 @@ iframe {
 	width: auto;
 	margin: auto;
 }
+
 .contact-send {
 	background-color: #F5CB5C;
 	color: #242423;
@@ -317,6 +356,7 @@ iframe {
 	float: right;
 	border-radius: 4px;
 }
+
 .contact-info {
 	color: #F5CB5C;
 	padding: 20px;
@@ -324,20 +364,23 @@ iframe {
 	margin-left: 10px;
 	margin-bottom: 20px;
 }
+
 .contactpage-fields {
 	max-width: 95%;
 }
+
 .contact-img {
 	margin-bottom: 20px;
 	width: 100%;
 	padding: 0px;
 }
+
 .img-container {
 	width: auto;
 	margin: auto;
 }
-/*------------------------------------Footer---------*/
 
+/*------------------------------------Footer---------*/
 .footer {
 	background-color: #333533;
 	max-width: 100%;
@@ -350,15 +393,18 @@ iframe {
 	margin-bottom: 0px;
 	margin-top: 20px;
 }
+
 .fab {
 	color: #F5CB5C;
 	text-decoration: none;
 }
+
 .social-links {
 	float: right;
 	font-size: 150%;
 	padding-top: 100px;
 }
+
 .footer-btn {
 	float: left;
 	margin: 0;
@@ -369,6 +415,7 @@ iframe {
 	text-align: center;
 	border: none;
 }
+
 .booking-footer {
 	color: #E8EDDF;
 	text-align: left;
@@ -377,6 +424,7 @@ iframe {
 	padding: 10px;
 	margin-top: 10px;
 }
+
 @media screen and (max-width: 600px) {
 	.booking-footer {
 		display: none;
@@ -386,8 +434,8 @@ iframe {
     color: #F5CB5C;
     text-decoration: none;
 }
-/*------------------------------------404 page---------*/
 
+/*------------------------------------404 page---------*/
 .error-text {
 	color: #E8EDDF;
 	font-family: "Ubuntu", sans-serif;
@@ -395,16 +443,20 @@ iframe {
 	padding: 10px;
 	text-align: center;
 }
+
 .error-text p {
 	padding-top: 20px;
 }
+
 .error-text a {
 	text-decoration: none;
 	color: #F5CB5C;
 }
+
 .error-images {
 	margin: auto;
 }
+
 .error-images img {
 	width: 100%;
 	margin: 5px;
