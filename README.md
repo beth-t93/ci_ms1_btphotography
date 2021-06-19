@@ -506,7 +506,8 @@ All devices passed the tests.
 
 | Feature | Action | Expected Result | Actual Result |
 | --- | ----------- | --- | ----------- |
-| Gallery and Projects Pages | Upload work to the gallery and projects page | Both pages contain up to date work and project information | Works as expected |
+| Gallery Page | Upload work to the gallery page | Page contains up to date images | Works as expected |
+| Projects Page | Keep the page updatwed with current work and its relevant information | Page is up to date and offers an explanation to each body of work | Works as expected |
 
 [Screenshot](docs/testing/user-story-5-7-9.png)
 
