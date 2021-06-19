@@ -13,11 +13,11 @@
     - [User Stories](#user-stories)
     - [User Requirments and Expectations](user-requirements-and-expectations)
     - [Scope](#scope)
+    - [Structure](#structure)
 - [Design Choices](#design-choices)
     - [Colours](#colours)
     - [Fonts/Typography](#fonts-typography)
     - [Imagery](#imagery)
-- [Structure](#structure)
 - [Wireframes](#wireframes)
 - [Technologies Used](#technologies-used)
     - [Languages](#languages)
@@ -99,6 +99,11 @@ Based on the above information, features to be included in the design include:
 - A map embedded into the site showing users where the photographer is based.
 - Modal providing another option for users to contact the photographer.
 
+## Structure
+A five page structured site which uses a combination of images and text.
+
+All the information on the site will be easy to access with all information no more than one click from the homepage.
+
 ## Design Choices
 The style of the site will be simple and minimal in order to let the photographs themselves do the work to attract users, however the website will still be accessible and easy to navigate.
 
@@ -118,11 +123,6 @@ To ensure the website is easily readable while also keeping to the simple and mi
 
 ### Imagery
 All images on the website are taken by myself and are high quality. The images give the viewer a taste of how the photographer works.
-
-## Strategy
-
-## Structure
-A four page structured site that uses a combination of images and text.
 
 ## Skeleton
 
