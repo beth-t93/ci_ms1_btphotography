@@ -4,6 +4,37 @@
 
 View the deployed site here: https://beth-t93.github.io/ci_ms1_btphotography/
 
+## Table of Contents
+
+- [Project Goals](#project-goals)
+- [User Experience](#user-experience--ux-)
+    - [User Goals](#user-goals)
+    - [Target Audience](#target-audience)
+    - [User Stories](#user-stories)
+    - [User Requirments and Expectations](user-requirements-and-expectations)
+- [Design Choices](#design-choices)
+    - [Colours](#colours)
+    - [Fonts/Typography](#fonts-typography)
+    - [Imagery](#imagery)
+- [Structure](#structure)
+- [Wireframes](#wireframes)
+- [Technologies Used](#technologies-used)
+    - [Languages](#languages)
+    - [Frameworks, Librabries and Other Tools](#frameworks-libraries-and-other-tools)
+- [Features](#features)
+- [Validation and Testing](#vlaidation-and-testing)
+    - [HTML Validation](#html-validation)
+    - [CSS Validation](#css-validation)
+    - [Acessibility](#accessibility)
+    - [Performance](#performance)
+    - [Testing on Other Devices](#testing-on-other-devices)
+    - [Testing of User Stories](#testing-of-user-stories)
+- [Bugs](#bugs)
+- [Deployment](#deployment)
+- [Credits](#credits)
+- [Acknowledgements](Acknowledgements)
+
+
 ## Project Goals
 The aim of this project is to create a portfolio website to showcase my own photography work in a way that is both appealing and accessible across a range of devices and screen sizes.
 
@@ -55,7 +86,7 @@ Information should be current and up to date
 ## Design Choices
 The style of the site will be simple and minimal in order to let the photographs themselves do the work to attract users, however the website will still be accessible and easy to navigate.
 
-### Colors
+### Colours
 The colour scheme from this website comes from the photographers work, they make their best work while outside exploring the landscape. The colours will work together in a way that lets the images stand out, while also providing a neutral backdrop to view the photographs on.
 
 ![images](docs/features/colour-scheme.jpg)
@@ -434,7 +465,7 @@ All devices passed the tests.
 | Contact and booking links | Make all relevant buttons and links stand out so users can see them clearly | Set all colours and text weights to stand out from the surrounding content, make used of the hover state to change text colour | Works as expected |
 
 
-### Bugs
+## Bugs
 
 - Bug: Google Map would overflow the side of the page in mobile and tablet.
 - Fix: Used [a blog post on Duda](https://blog.duda.co/responsive-google-maps-for-your-website) to help which told me to set width to 100% rather than fixed number as it said on Google Maps embedding instructions.
