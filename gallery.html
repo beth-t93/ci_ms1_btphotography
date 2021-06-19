@@ -5,34 +5,35 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Gallery page showing a selection of work.">
+	<meta name="description" content="Home page with information about the photographer.">
 	<link rel="icon" href="assets/images/favicon.ico">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-	<title>Beth Travis Photography | Gallery</title>
+	<title>Beth Travis Photography | Home</title>
 </head>
 
 <body class="background">
+
 	<!-- Header -->
 	<header>
+		<!-- Boostrap Navigation bar with added custom styling -->
 		<nav class="navbar navbar-expand-lg navbar-dark">
 			<div class="container-fluid">
-				<a class="navbar-brand" href="index.html">
+				<a class="navbar-brand" href="index.html"> 
 					<img src="assets/images/logo2.jpg" alt="Logo Icon" class="logo-icon d-inline-block align-text-top" />
-				</a>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+					</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 					<ul class="navbar-nav">
-						<li class="nav-item"> <a class="nav-link" href="index.html">Home</a>
-						</li>
-						<li class="nav-item"> <a class="nav-link active" aria-current="page" href="gallery.html">Gallery</a>
-						</li>
-						<li class="nav-item"> <a class="nav-link" href="projects.html">Projects</a>
-						</li>
-						<li class="nav-item"> <a class="nav-link" href="contact.html">Contact</a>
-						</li>
+						<li class="nav-item"> <a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+						<li class="nav-item"> <a class="nav-link" href="gallery.html">Gallery</a></li>
+						<li class="nav-item"> <a class="nav-link" href="projects.html">Projects</a></li>
+						<li class="nav-item"> <a class="nav-link" href="contact.html">Contact</a></li>
 					</ul>
+					<!-- Using modal from Bootstrap -->
 					<!-- Button trigger modal -->
 					<button type="button" class="btn contact-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Booking</button>
 					<!-- Modal -->
@@ -41,28 +42,20 @@
 							<div class="modal-content">
 								<div class="modal-header">
 									<h5 class="modal-title" id="staticBackdropLabel">Looking to make a booking?</h5>
-									<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+									<button type="button" class="btn-close" data-bs-dismiss="modal"
+										aria-label="Close"></button>
 								</div>
 								<div class="modal-body">
 									<form action="https://formdump.codeinstitute.net/" method="POST">
-										<label for="name">Name:</label>
-										<br>
-										<input type="text" id="name" required>
-										<br>
-										<label for="email">Email:</label>
-										<br>
-										<input type="email" id="email" required>
-										<br>
-										<label for="date">Date:</label>
-										<br>
-										<input type="date" id="date" required>
-										<br>
-										<label for="message">Message:</label>
-										<br>
-										<textarea id="message" name="message" rows="5" cols="33"></textarea>
-										<br>
-										<input type="submit" value="Send!" class="send-btn">
-										<br>
+										<label for="name">Name:</label><br>
+										<input type="text" id="name" required><br>
+										<label for="email">Email:</label><br>
+										<input type="email" id="email" required><br>
+										<label for="date">Date:</label><br>
+										<input type="date" id="date" required><br>
+										<label for="message">Message:</label><br>
+										<textarea id="message" name="message" rows="5" cols="33"></textarea><br>
+										<input type="submit" value="Send!" class="send-btn"><br>
 									</form>
 								</div>
 							</div>
@@ -72,8 +65,8 @@
 			</div>
 		</nav>
 	</header>
-	<!-- Body -->
 
+	<!-- Body -->
 		<div class="gallery-title">
 			<h2>Gallery</h2>
 			<p>Here is a selection of work from various projects. For more information about each project <a class="project-link" href="projects.html">click here</a>

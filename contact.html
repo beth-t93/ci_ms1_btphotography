@@ -5,34 +5,35 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Contact Page">
+	<meta name="description" content="Home page with information about the photographer.">
 	<link rel="icon" href="assets/images/favicon.ico">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-	<title>Beth Travis Photography | Contact</title>
+	<title>Beth Travis Photography | Home</title>
 </head>
 
-<body class="background"> 
+<body class="background">
+
 	<!-- Header -->
 	<header>
+		<!-- Boostrap Navigation bar with added custom styling -->
 		<nav class="navbar navbar-expand-lg navbar-dark">
 			<div class="container-fluid">
-				<a class="navbar-brand" href="index.html">
+				<a class="navbar-brand" href="index.html"> 
 					<img src="assets/images/logo2.jpg" alt="Logo Icon" class="logo-icon d-inline-block align-text-top" />
-				</a>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+					</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 					<ul class="navbar-nav">
-						<li class="nav-item"> <a class="nav-link" href="index.html">Home</a>
-						</li>
-						<li class="nav-item"> <a class="nav-link" href="gallery.html">Gallery</a>
-						</li>
-						<li class="nav-item"> <a class="nav-link" href="projects.html">Projects</a>
-						</li>
-						<li class="nav-item"> <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
-						</li>
+						<li class="nav-item"> <a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+						<li class="nav-item"> <a class="nav-link" href="gallery.html">Gallery</a></li>
+						<li class="nav-item"> <a class="nav-link" href="projects.html">Projects</a></li>
+						<li class="nav-item"> <a class="nav-link" href="contact.html">Contact</a></li>
 					</ul>
+					<!-- Using modal from Bootstrap -->
 					<!-- Button trigger modal -->
 					<button type="button" class="btn contact-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Booking</button>
 					<!-- Modal -->
@@ -41,28 +42,20 @@
 							<div class="modal-content">
 								<div class="modal-header">
 									<h5 class="modal-title" id="staticBackdropLabel">Looking to make a booking?</h5>
-									<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+									<button type="button" class="btn-close" data-bs-dismiss="modal"
+										aria-label="Close"></button>
 								</div>
 								<div class="modal-body">
 									<form action="https://formdump.codeinstitute.net/" method="POST">
-										<label for="name">Name:</label>
-										<br>
-										<input type="text" id="name" required>
-										<br>
-										<label for="email">Email:</label>
-										<br>
-										<input type="email" id="email" required>
-										<br>
-										<label for="date">Date:</label>
-										<br>
-										<input type="date" id="date" required>
-										<br>
-										<label for="message">Message:</label>
-										<br>
-										<textarea id="message" name="message" rows="5" cols="33"></textarea>
-										<br>
-										<input type="submit" value="Send!" class="send-btn">
-										<br>
+										<label for="name">Name:</label><br>
+										<input type="text" id="name" required><br>
+										<label for="email">Email:</label><br>
+										<input type="email" id="email" required><br>
+										<label for="date">Date:</label><br>
+										<input type="date" id="date" required><br>
+										<label for="message">Message:</label><br>
+										<textarea id="message" name="message" rows="5" cols="33"></textarea><br>
+										<input type="submit" value="Send!" class="send-btn"><br>
 									</form>
 								</div>
 							</div>
@@ -72,46 +65,49 @@
 			</div>
 		</nav>
 	</header>
-	<!-- Body -->
 
-		<div class="container">
-			<div class="row form-info">
-				<div class="col-sm-6 img-container">
-					<img class="contact-img" src="assets/images/journeytotheshore8.jpg" alt="Image of a gate taken from the project Journey to the Shore">
+	<!-- Body -->
+	<div class="container">
+		<div class="row form-info">
+			<div class="col-sm-6 img-container">
+				<img class="contact-img" src="assets/images/journeytotheshore8.jpg"
+					alt="Image of a gate taken from the project Journey to the Shore">
+			</div>
+			<!-- Contact information -->
+			<div class="col-sm-6 contact-form">
+				<div class="contact-info">
+					<p><i class="fas fa-envelope"></i> <b>Email:</b> hello@btphotography.com</p>
+					<p><i class="fas fa-mobile-alt"></i> <b>Phone:</b> 0771234567</p>
+					<p><i class="fas fa-map-marker-alt"></i> <b>Address:</b> Chester Road, Flint, Flintshire, CH6 5DT
+					</p>
 				</div>
-				<!-- Contact information -->
-				<div class="col-sm-6 contact-form">
-					<div class="contact-info">
-						<p><i class="fas fa-envelope"></i>  <b>Email:</b> hello@btphotography.com</p>
-						<p><i class="fas fa-mobile-alt"></i>  <b>Phone:</b> 0771234567</p>
-						<p><i class="fas fa-map-marker-alt"></i>  <b>Address:</b> Chester Road, Flint, Flintshire, CH6 5DT</p>
-					</div>
-					<!-- Contact Form -->
-					<div>
-						<form action="https://formdump.codeinstitute.net/" method="POST">
-							<label for="name-2">Name:</label>
-							<br>
-							<input type="text" id="name-2" class="contactpage-fields" required>
-							<br>
-							<label for="email-2">Email:</label>
-							<br>
-							<input type="email" id="email-2" class="contactpage-fields" required>
-							<br>
-							<label for="date-2">Date:</label>
-							<br>
-							<input type="date" id="date-2" class="contactpage-fields" required>
-							<br>
-							<label for="message-2">Message:</label>
-							<br>
-							<textarea id="message-2" name="message" rows="5" cols="25" class="contactpage-fields"></textarea>
-							<br>
-							<input type="submit" value="Send!" class="contact-send">
-							<br>
-						</form>
-					</div>
+				<!-- Contact Form -->
+				<div>
+					<form action="https://formdump.codeinstitute.net/" method="POST">
+						<label for="name-2">Name:</label>
+						<br>
+						<input type="text" id="name-2" class="contactpage-fields" required>
+						<br>
+						<label for="email-2">Email:</label>
+						<br>
+						<input type="email" id="email-2" class="contactpage-fields" required>
+						<br>
+						<label for="date-2">Date:</label>
+						<br>
+						<input type="date" id="date-2" class="contactpage-fields" required>
+						<br>
+						<label for="message-2">Message:</label>
+						<br>
+						<textarea id="message-2" name="message" rows="5" cols="25"
+							class="contactpage-fields"></textarea>
+						<br>
+						<input type="submit" value="Send!" class="contact-send">
+						<br>
+					</form>
 				</div>
 			</div>
 		</div>
+	</div>
 	<!-- Footer -->
 	<footer class="footer mt-auto py-3">
 		<div class="container">
@@ -120,27 +116,32 @@
 				<div class="col booking-footer">
 					<h4>Want to collaborate?</h4>
 					<p>Follow the link to be taken to the contact form</p>
-					<button type="button" class="btn footer-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Booking</button>
+					<button type="button" class="btn footer-btn" data-bs-toggle="modal"
+						data-bs-target="#staticBackdrop">Booking</button>
 				</div>
 				<div class="col">
 					<ul class="list-inline social-links">
 						<li class="list-inline-item">
-							<a target="_blank" href="https://www.facebook.com/" rel="noopener"> <i class="fab fa-facebook-f" aria-hidden="true"></i>
+							<a target="_blank" href="https://www.facebook.com/" rel="noopener"> <i
+									class="fab fa-facebook-f" aria-hidden="true"></i>
 								<span class="sr-only icon-text">Facebook</span>
 							</a>
 						</li>
 						<li class="list-inline-item">
-							<a target="_blank" href="https://www.twitter.com/" rel="noopener"> <i class="fab fa-twitter" aria-hidden="true"></i>
+							<a target="_blank" href="https://www.twitter.com/" rel="noopener"> <i class="fab fa-twitter"
+									aria-hidden="true"></i>
 								<span class="sr-only icon-text">Twitter</span>
 							</a>
 						</li>
 						<li class="list-inline-item">
-							<a target="_blank" href="https://www.linkedin.com/" rel="noopener"> <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+							<a target="_blank" href="https://www.linkedin.com/" rel="noopener"> <i
+									class="fab fa-linkedin-in" aria-hidden="true"></i>
 								<span class="sr-only icon-text">LinkedIn</span>
 							</a>
 						</li>
 						<li class="list-inline-item">
-							<a target="_blank" href="https://www.instagram.com/" rel="noopener"> <i class="fab fa-instagram" aria-hidden="true"></i>
+							<a target="_blank" href="https://www.instagram.com/" rel="noopener"> <i
+									class="fab fa-instagram" aria-hidden="true"></i>
 								<span class="sr-only icon-text">Instagram</span>
 							</a>
 						</li>
@@ -149,7 +150,9 @@
 			</div>
 		</div>
 	</footer>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+		crossorigin="anonymous"></script>
 	<script src="https://kit.fontawesome.com/4f13c01e7f.js" crossorigin="anonymous"></script>
 </body>
 
