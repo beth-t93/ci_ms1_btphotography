@@ -2,7 +2,7 @@
 
 ![images](docs/mockup/responsive-mockup.png)
 
-View the deployed site here: https://beth-t93.github.io/ci_ms1_btphotography/
+[View the deployed site here](https://beth-t93.github.io/ci_ms1_btphotography/)
 
 ## Table of Contents
 
@@ -352,7 +352,7 @@ Click on the page name to see the result:
 - [404](docs/validation/acessibility/WAVE-404.png)
 
 ### Performance
-I used [Google Lighthouse]](https://developers.google.com/web/tools/lighthouse) to measure the performance and speed of my website.
+I used [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) to measure the performance and speed of my website.
 
 All pages passed with at least 91% on performance, at least 96% (The gallery, projects and 404 page socred 100%) on accessibility, 93% on best practices and  at least 92% (The contact page socred 100%) on SEO,
 
