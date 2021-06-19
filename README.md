@@ -468,7 +468,9 @@ All devices passed the tests.
 
 | Feature | Action | Expected Result | Actual Result |
 | --- | ----------- | --- | ----------- |
-| Projects and Gallery Pages | Navigate to the projects or gallery pages in the naviagation bar | To be taken to the specific page you clicked the link for | Works as expected |
+| Project Page | Navigate to the project page in the naviagation bar | To be taken to the project page | Works as expected |
+| Gallery Page | Click Gallery in the naviagation bar | To be taken to the gallery page | Works as expected |
+| Social Media Links | Scroll to social links at the bottom of the page and click | To be taken to the relecant site you clicked on | Works as expected |
 
 [Screenshot](docs/testing/user-story-5-7-9.png)
 
@@ -477,7 +479,8 @@ All devices passed the tests.
 | Feature | Action | Expected Result | Actual Result |
 | --- | ----------- | --- | ----------- |
 | Booking Modal | Click the 'Booking' button in the header or footer | A modal with a contact form will show on the page | Works as expected |
-| Contact Page | Use either the contact form or use the contact details listed | Easily contact the photographer | Works as expected |
+| Contact Page | Fill out the contact form | Easily contact the photographer | Works as expected |
+| Contact Page | Find the details listed to contact the photographer outside of the website | To find the contact details listed aboue the form | Works as expected |
 
 [Screenshot](docs/testing/user-story-6-8-10-11.png)
 
