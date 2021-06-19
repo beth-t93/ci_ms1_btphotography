@@ -409,7 +409,7 @@ All devices passed the tests.
 
 | Feature | Action | Expected Result | Actual Result |
 | --- | ----------- | --- | ----------- |
-|Responsive simple design | Site can be viewed on desktop, tablet and mobile with no issues | The site changes in response to the display size to give all users a good user experience |
+|Responsive simple design | Site can be viewed on desktop, tablet and mobile with no issues | The site changes in response to the display size to give all users a good user experience | Works as expected |
 | High contrast colour scheme | All text on the site is in a contrasting colour to the background | Users are able to clearly read all text | Works as expected |
 | alt tags on all images | Screen reader users are able to know what each image is of | All images have an alt tag | Works as expected |
 
@@ -417,7 +417,7 @@ All devices passed the tests.
 
 | Feature | Action | Expected Result | Actual Result |
 | --- | ----------- | --- | ----------- |
-| Social icons in the footer of all pages | Scroll to bottom of page | Works as expected |
+| Social icons in the footer of all pages | Scroll to bottom of page | See the social mesdia incons to the right of the footer | Works as expected |
 
 5. As a first time visitor I would like to know about any new projects or exhibitions that the photographer may be featured in.
 
@@ -538,6 +538,7 @@ This site is deployed using GitHub pages, this was the process:
 - Code Institue - for creating the layout of the gallery images, inspired by the Love Running Mini Project.
 - [W3 Schools](https://www.w3schools.com/howto/howto_css_three_columns.asp) for help setting up a three column grid
 - [Web.dev](https://web.dev/meta-description/?utm_source=lighthouse&utm_medium=devtools) for help with etting up a meta description after Lighthouse testing.
+- [HTML Dog](https://www.htmldog.com/techniques/404/) for help adding a 404 error page to the site.
 
 ## Acknowledgements
 
