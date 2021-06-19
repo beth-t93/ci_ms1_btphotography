@@ -1,6 +1,7 @@
+![images](assets/images/logo2.jpg)
 ![images](docs/mockup/responsive-mockup.png)
 
-https://beth-t93.github.io/ci_ms1_btphotography/
+View the deployed site here: https://beth-t93.github.io/ci_ms1_btphotography/
 
 ## Project Goals
 The aim of this project is to create a portfolio website to showcase my own photography work in a way that is both appealing and accessible across a range of devices and screen sizes.
@@ -491,7 +492,7 @@ This site is deployed using GitHub pages, this was the process:
 6. Press enter for the clone to be created.
 
 ## Credits
-### Content
+### Content and Media
 - The copy for this website was written by myself
 - All of the images used on the site were taken by myself
 
@@ -501,3 +502,10 @@ This site is deployed using GitHub pages, this was the process:
     - Accordian
     - Grid
     - Navigation bar
+- [Stack Overflow](https://stackoverflow.com/questions/39068128/how-can-i-make-a-textarea-that-fits-within-the-width-of-the-current-viewport/39068155) for help with making text fields responsive, and using diplay in CSS.
+- Code Institue - for creating the layout of the gallery images, inspired by the Love Running Mini Project.
+- [W3 Schools](https://www.w3schools.com/howto/howto_css_three_columns.asp) for help setting up a three column grid
+- [Web.dev](https://web.dev/meta-description/?utm_source=lighthouse&utm_medium=devtools) for help with etting up a meta description after Lighthouse testing.
+
+## Acknowledgements
+
