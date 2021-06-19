@@ -39,7 +39,7 @@ View the deployed site here: https://beth-t93.github.io/ci_ms1_btphotography/
 The aim of this project is to create a portfolio website to showcase my own photography work in a way that is both appealing and accessible across a range of devices and screen sizes.
 
 
-## User Exerpinece (UX)
+## User Exerpinece
 ### User Goals
 An easy to use website
 A way to contact the photographer directly
