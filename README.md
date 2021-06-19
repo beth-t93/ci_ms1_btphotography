@@ -399,11 +399,15 @@ All devices passed the tests.
 | --- | ----------- | --- | ----------- | 
 | Information about the photographer on the homepage | Scroll down | To find the photographers information on the home page | Works as expected |
 
+[Screenshot](docs/testing/user-story-1.png)
+
 2. As a first time visitor I want the website to be easy to use and navigate.
 
 | Feature | Action | Expected Result | Actual Result |
 | --- | ----------- | --- | ----------- |
-| Sinple, easy to navigate design | User can easily see all the possible paths clearly | User successfully finds what they were looking for on the site | Works as expected |
+| Simple, easy to navigate design | User can easily see all the possible paths clearly | User successfully finds what they were looking for on the site | Works as expected |
+
+[Screenshot](docs/testing/user-story-2.png)
 
 3. As a first time visitor I want the website to be accessible.
 
@@ -413,17 +417,23 @@ All devices passed the tests.
 | High contrast colour scheme | All text on the site is in a contrasting colour to the background | Users are able to clearly read all text | Works as expected |
 | alt tags on all images | Screen reader users are able to know what each image is of | All images have an alt tag | Works as expected |
 
+[Screenshot](docs/testing/user-story-3.png)
+
 4. As a first time visitor I would like to look at their social media to see more of their work and any reviews.
 
 | Feature | Action | Expected Result | Actual Result |
 | --- | ----------- | --- | ----------- |
 | Social icons in the footer of all pages | Scroll to bottom of page | See the social mesdia incons to the right of the footer | Works as expected |
 
+[Screenshot](docs/testing/user-story-4.png)
+
 5. As a first time visitor I would like to know about any new projects or exhibitions that the photographer may be featured in.
 
 | Feature | Action | Expected Result | Actual Result |
 | --- | ----------- | --- | ----------- |
-| Projects and Gallery Pages | Navigate to the projects or galelry pages in the naviagation bar | To be taken to the specific page you clicked the link for | Works as expected |
+| Projects and Gallery Pages | Navigate to the projects or gallery pages in the naviagation bar | To be taken to the specific page you clicked the link for | Works as expected |
+
+[Screenshot](docs/testing/user-story-5-7-9.png)
 
 6. As a first time visitor I would like to be able to contact the photographer quickly and easily with any questions or to commission them.
 
@@ -432,12 +442,16 @@ All devices passed the tests.
 | Booking Modal | Click the 'Booking' button in the header or footer | A modal with a contact form will show on the page | Works as expected |
 | Contact Page | Use either the contact form or use the contact details listed | Easily contact the photographer | Works as expected |
 
+[Screenshot](docs/testing/user-story-6-8-10-11.png)
+
 7. As a returning visitor I want to be able to see any new work or updates to any work
 
 | Feature | Action | Expected Result | Actual Result |
 | --- | ----------- | --- | ----------- |
 | Projects Page | Navigate to Projects using the navigation bar | To be taken to the projects page | Works as expected |
 | Social media links | Navigate to the phtoographers social media using the links in the footer | Be taken to the relevant social media page | Works as expected |
+
+[Screenshot](docs/testing/user-story-5-7-9.png)
 
 8. As a returning visitor I want to be able to contact the photographer as I am interested in commissioning some work or purchasing some of their work.
 
@@ -446,11 +460,15 @@ All devices passed the tests.
 | Booking Modal | Click the 'Booking' button in the header or footer | A modal with a contact form will show on the page | Works as expected |
 | Contact Page | Use either the contact form or use the contact details listed | Easily contact the photographer | Works as expected |
 
+[Screenshot](docs/testing/user-story-6-8-10-11.png)
+
 9. As a site owner I want to show off my work to demonstrate my skill as a photographer
 
 | Feature | Action | Expected Result | Actual Result |
 | --- | ----------- | --- | ----------- |
 | Gallery and Projects Pages | Upload work to the gallery and projects page | Both pages contain up to date work and project information | Works as expected |
+
+[Screenshot](docs/testing/user-story-5-7-9.png)
 
 10. As a site owner I want to make connections with potential new customers
 
@@ -458,11 +476,15 @@ All devices passed the tests.
 | --- | ----------- | --- | ----------- |
 | Contact and booking links | Make all relevant buttons and links stand out so users can see them clearly | Set all colours and text weights to stand out from the surrounding content, make used of the hover state to change text colour | Works as expected |
 
+[Screenshot](docs/testing/user-story-6-8-10-11.png)
+
 11. A a site owner I want user to be able to make contact easily for opportunities, including commissions, exhibitions, events and talks.
 
 | Feature | Action | Expected Result | Actual Result |
 | --- | ----------- | --- | ----------- |
 | Contact and booking links | Make all relevant buttons and links stand out so users can see them clearly | Set all colours and text weights to stand out from the surrounding content, make used of the hover state to change text colour | Works as expected |
+
+[Screenshot](docs/testing/user-story-6-8-10-11.png)
 
 
 ## Bugs
