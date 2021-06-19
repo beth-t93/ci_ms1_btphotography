@@ -563,4 +563,6 @@ This site is deployed using GitHub pages, this was the process:
 - [HTML Dog](https://www.htmldog.com/techniques/404/) for help adding a 404 error page to the site.
 
 ## Acknowledgements
-
+- My mentor Mo Shami for his suppot, advice and feedback.
+- My partner for all his support and testing feedback.
+- The slack community for all the helpful advice and guidance.
