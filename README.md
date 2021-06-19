@@ -320,6 +320,15 @@ For more information about the form please see feature 4, part 3.
 10. As a site owner I want to make connections with potential new customers
 11. A a site owner I want user to be able to make contact easily for opportunities, including commissions, exhibitions, events and talks.
 
+### Feature 6 - 404 Error Page
+![images](docs/features/feature-404-error.png)  
+
+This page will appear whenever a page cannot be reached. It gives users a simple way to return to the page they came from without using the browser back button.
+
+#### User stories covered by this feature:
+2. As a first time visitor I want the website to be easy to use and navigate.
+3. As a first time visitor I want the website to be accessible.
+
 ## Validation and Testing
 
 ### HTML Validation
