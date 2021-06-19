@@ -382,6 +382,12 @@ Click on the page name to see the result:
 - 21.5" iMac
 - Asus Chromebook Flip C434TA
 
+#### Browser Testing
+- Chrome
+- Brave (Chromium)
+- Edge
+- Safari
+
 #### Tests Performed
 - The navigation bar successfully directs users to the correct page with no broken links
 - Internal and external links direct users to the correct page with no broken links
