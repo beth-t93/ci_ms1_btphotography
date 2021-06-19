@@ -12,6 +12,7 @@
     - [Target Audience](#target-audience)
     - [User Stories](#user-stories)
     - [User Requirments and Expectations](user-requirements-and-expectations)
+    - [Scope](#scope)
 - [Design Choices](#design-choices)
     - [Colours](#colours)
     - [Fonts/Typography](#fonts-typography)
@@ -83,6 +84,21 @@ Information should be current and up to date
 - When using the contact button all fields will be required before being able to send the message
 - Lots of images to showcase the photographers work
 
+
+## Scope
+Based on the above information, features to be included in the design include:
+- An easy to use naviagation bar to allow users to get around the site quickly and easily.
+- A gallery page containing examples of work.
+- A page listing specific projects with more information about each body of work.
+- A section listing any other services offered, such as weddings or commercial photography.
+- An error (404) page to direct site users back to the homepage should there be a broken URL.
+- Favicon to help users identify the site in any tabs.
+- An about section so users are able to find out more about the photographer.
+- An easy to use contact page so users can contact the photographer, either by using the form, or by using the contact information provided.
+- A footer containing easy to access social media links to Facebook, Twitter, Instagram and Linkedin.
+- A map embedded into the site showing users where the photographer is based.
+- Modal providing another option for users to contact the photographer.
+
 ## Design Choices
 The style of the site will be simple and minimal in order to let the photographs themselves do the work to attract users, however the website will still be accessible and easy to navigate.
 
@@ -103,8 +119,14 @@ To ensure the website is easily readable while also keeping to the simple and mi
 ### Imagery
 All images on the website are taken by myself and are high quality. The images give the viewer a taste of how the photographer works.
 
+## Strategy
+
 ## Structure
 A four page structured site that uses a combination of images and text.
+
+## Skeleton
+
+## Surface
 
 ## Wireframes
 - [Home](docs/wireframe/home-wireframes.pdf)
